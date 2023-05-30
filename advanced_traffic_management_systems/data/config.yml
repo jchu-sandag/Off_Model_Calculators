@@ -1,0 +1,18 @@
+inputs:
+    highway_load_am_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/hwyload_AM.csv"
+    highway_load_md_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/hwyload_MD.csv"   
+    highway_load_pm_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/hwyload_PM.csv"
+    highway_load_ea_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/hwyload_EA.csv"
+    highway_load_ev_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/hwyload_EV.csv"
+    highway_network_shapefile: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/hwyload_475.shp"
+    atms_strategy_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/advanced_traffic_management_systems/advanced_traffic_management_systems/data/external/atms_strategy.yml"
+    emission_factors_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/advanced_traffic_management_systems/advanced_traffic_management_systems/data/external/co2_emissions_rates.xlsx"
+    intersection_delays_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/advanced_traffic_management_systems/advanced_traffic_management_systems/data/external/intersection_delays.csv"
+parameters:
+    scen_year: 2035
+    percent_atms_delay_reduction: 12.0
+    apply_adaptive_signal_reduction: false
+    percent_adaptive_signal_reduction: 19.5
+outputs:
+    output_dir: "T:/RTP/2021RP/2021rp_final/analysis/omc_test/2035/2035_visionFeb9"
+    output_file_name: "advanced_traffic_management_systems_results_2035_vision.xlsx"

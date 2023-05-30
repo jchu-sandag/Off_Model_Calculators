@@ -1,0 +1,21 @@
+inputs:
+    mgra_scen_input_file: "C:/Projects/SANDAG Calculators/carshare/carshare/data/external/model_run/2035_sb2s_nb_v2/input/mgra13_based_input2035.csv"
+    mgra_base_input_file: "C:/Projects/SANDAG Calculators/carshare/carshare/data/external/model_run/2035_sb2s_nb_v2/input/mgra13_based_input2035.csv"
+    person_input_file: "C:/Projects/SANDAG Calculators/carshare/carshare/data/external/model_run/2035_sb2s_nb_v2/input/persons.csv"
+    household_input_file: "C:/Projects/SANDAG Calculators/carshare/carshare/data/external/model_run/2035_sb2s_nb_v2/input/households.csv"
+    geography_xwalk_file: "C:/Projects/SANDAG Calculators/carshare/carshare/data/external/mgra13_taz_msa.csv"
+    emission_factors_file: "C:/Projects/SANDAG Calculators/carshare/carshare/data/external/co2_emissions_rates.xlsx"
+    corridors_mgra_xwalk_file: "C:/Projects/SANDAG Calculators/carshare/carshare/data/external/corridors_mgra.csv"
+    carshare_mgra_file: "C:/Projects/SANDAG Calculators/carshare/carshare/data/external/mgra_carshare_inputs.csv"
+parameters:
+    base_year: 2020
+    scen_year: 2035
+    population_density_threshold: 17
+    high_density_mobility_hub_carshare_participation : 0.02
+    low_density_mobility_hub_carshare_participation : 0.005
+    college_carshare_participation : 0.02
+    military_carshare_participation : 0.02
+    daily_vmt_reduction_carshare : 7
+outputs:
+    output_dir: "C:/Projects/SANDAG Calculators/carshare/carshare/data/interim"
+    output_file_name: "carshare_calculator_results.xlsx"

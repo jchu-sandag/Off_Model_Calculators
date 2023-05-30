@@ -1,0 +1,13 @@
+inputs:
+    transit_routes_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/data/external/model_run/2035_sb2s_nb_v2/input/trrt.csv"
+    transit_flow_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/data/external/model_run/2035_sb2s_nb_v2/report/transit_flow.csv"
+    transit_ev_strategy_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/transit_ev/data/external/transit_ev_conversion_strategy.csv"
+    emission_factors_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/transit_ev/data/external/co2_emissions_rates.xlsx"
+
+parameters:
+    scen_year: 2035
+    transit_working_hours_factor: 1
+    
+outputs:
+    output_dir: "D:/Projects/SANDAG/client_sandag_off_model_calculators/transit_ev/data/interim"
+    output_file_name: "transit_ev_calculator_results.xlsx"

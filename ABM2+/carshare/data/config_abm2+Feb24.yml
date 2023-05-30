@@ -1,0 +1,21 @@
+inputs:
+    mgra_scen_input_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/input/mgra13_based_input2035.csv"
+    mgra_base_input_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/input/mgra13_based_input2035.csv"
+    person_input_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/input/persons.csv"
+    household_input_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/input/households.csv"
+    geography_xwalk_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/carshare/data/external/mgra13_taz_msa.csv"
+    emission_factors_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/carshare/data/external/co2_emissions_rates.xlsx"
+    corridors_mgra_xwalk_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/carshare/data/external/corridors_mgra.csv"
+    carshare_mgra_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/carshare/data/external/mgra_carshare_inputs.csv"
+parameters:
+    base_year: 2020
+    scen_year: 2035
+    population_density_threshold: 17
+    high_density_mobility_hub_carshare_participation : 0.02
+    low_density_mobility_hub_carshare_participation : 0.005
+    college_carshare_participation : 0.02
+    military_carshare_participation : 0.02
+    daily_vmt_reduction_carshare : 7
+outputs:
+    output_dir: "T:/projects/sr14/OWP/CMCP/i805_purple_line/analysis/off_model_calc"
+    output_file_name: "carshare_calculator_results_2035_sb2s_alt2.xlsx"

@@ -1,0 +1,13 @@
+inputs:
+    transit_routes_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt1/input/trrt.csv"
+    transit_flow_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt1/report/transit_flow.csv"
+    transit_ev_strategy_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/transit_ev/data/external/transit_ev_conversion_strategy.csv"
+    emission_factors_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/transit_ev/data/external/co2_emissions_rates.xlsx"
+
+parameters:
+    scen_year: 2035
+    transit_working_hours_factor: 1
+    
+outputs:
+    output_dir: "T:/projects/sr14/OWP/CMCP/i805_purple_line/analysis/off_model_calc/Alt1"
+    output_file_name: "transit_ev_calculator_results_2035_sb2s_alt1.xlsx"

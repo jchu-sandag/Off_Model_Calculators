@@ -1,0 +1,14 @@
+inputs:
+    transit_routes_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/trrt.csv"
+    transit_flow_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/transit_flow.csv"
+    transit_ev_strategy_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/transit_ev/data/external/transit_ev_conversion_strategy.csv"
+    emission_factors_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/transit_ev/data/external/co2_emissions_rates.xlsx"
+
+parameters:
+    base_year: 2020
+    scen_year: 2035
+    transit_working_hours_factor: 1
+    
+outputs:
+    output_dir: "T:/RTP/2021RP/2021rp_final/analysis/omc_test/2035/2035_visionFeb9"
+    output_file_name: "transit_ev_calculator_results_2035.xlsx"

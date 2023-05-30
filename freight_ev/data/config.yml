@@ -1,0 +1,18 @@
+inputs:
+    highway_load_am_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/data/external/model_run/2035_sb2s_nb_v2/report/hwyload_AM.csv"
+    highway_load_md_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/data/external/model_run/2035_sb2s_nb_v2/report/hwyload_MD.csv"   
+    highway_load_pm_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/data/external/model_run/2035_sb2s_nb_v2/report/hwyload_PM.csv"
+    highway_load_ea_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/data/external/model_run/2035_sb2s_nb_v2/report/hwyload_EA.csv"
+    highway_load_ev_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/data/external/model_run/2035_sb2s_nb_v2/report/hwyload_EV.csv"
+    highway_network_shapefile: "D:/Projects/SANDAG/client_sandag_off_model_calculators/data/external/model_run/2035_sb2s_nb_v2/output/hwyload_610.shp"
+    cmcp_corridors_shapefile: "D:/Projects/SANDAG/client_sandag_off_model_calculators/freight_ev/data/external/CMCP_shapefile/CMCPCorridors.shp"
+    freight_ev_strategy_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/freight_ev/data/external/freight_ev_conversion_strategy.csv"
+    emission_factors_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/freight_ev/data/external/co2_emissions_rates.xlsx"
+    
+parameters:
+    scen_year: 2035
+    corridor_name: "South Bay to Sorrento"
+
+outputs:
+    output_dir: "D:/Projects/SANDAG/client_sandag_off_model_calculators/freight_ev/data/interim"
+    output_file_name: "freight_ev_calculator_results.xlsx"

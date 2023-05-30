@@ -1,0 +1,30 @@
+inputs:
+    highway_load_am_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/report/hwyload_AM.csv"
+    highway_load_md_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/report/hwyload_MD.csv"   
+    highway_load_pm_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/report/hwyload_PM.csv"
+    highway_load_ea_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/report/hwyload_EA.csv"
+    highway_load_ev_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/report/hwyload_EV.csv"
+    highway_network_shapefile: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/report/hwyload_589.shp"
+    transit_flow_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/report/transit_flow.csv"
+    transit_aggflow_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/report/transit_aggflow.csv"
+    transit_routes_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/input/trrt.csv"
+    transit_stops_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/input/trstop.csv"
+    transit_onoff_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/report/transit_onoff.csv"
+    transit_links_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt2/input/trlink.csv"
+    tsp_strategy_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/transit_signal_priority/data/external/tsp_strategy.yml"
+    emission_factors_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/transit_signal_priority/data/external/co2_emissions_rates.xlsx"
+
+parameters:
+    scen_year: 2035
+    periods_length_in_hr: {"AM": 3, "PM": 4}
+    avg_dwell_time_mins: 0.5
+    green_to_cycle_without_tsp: 0.5
+    green_to_cycle_primary_with_tsp: 0.6
+    green_to_cycle_secondary_with_tsp: 0.4
+    avg_cycle_length_seconds: 100
+    elasticity_transit_ridership: -0.4
+    avg_auto_occupancy: 1.2
+    
+outputs:
+    output_dir: "T:/projects/sr14/OWP/CMCP/i805_purple_line/analysis/off_model_calc"
+    output_file_name: "transit_signal_priority_calculator_results_2035_sb2s_alt2.xlsx"

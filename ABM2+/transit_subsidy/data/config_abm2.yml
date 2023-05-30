@@ -1,0 +1,24 @@
+inputs:
+    individual_trips_output_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt1/output/indivTripData_3.csv"
+    person_data_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt1/output/personData_3.csv"
+    household_data_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt1/output/householdData_3.csv"
+    emission_factors_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/transit_subsidy/data/external/co2_emissions_rates.xlsx"
+    skim_matrix_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt1/output/traffic_skims_EV.omx"
+    geography_xwalk_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/transit_subsidy/data/external/mgra13_taz_msa.csv"
+    person_type_target_population_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/transit_subsidy/data/external/person_type_target_population.csv"
+    trip_purpose_target_population_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/transit_subsidy/data/external/tour_purpose_target_population.csv"
+    origin_geography_file: 
+    destination_geography_file: 
+parameters:
+    scen_year: 2035
+    low_income_threshold: 50000
+    fare_ridership_elasticity: -0.43
+    percent_fare_subsidy: 50
+    auto_to_transit_switch_factor: 0.5
+    auto_modes: [1, 2, 3, 4, 5, 6]
+    transit_modes: [9, 10, 11]
+    sov_ev_dist_core_name: "EV_SOV_NT_M_DIST"
+    hov_ev_dist_core_name: "EV_HOV2_M_DIST"
+outputs:
+    output_dir: "T:/projects/sr14/OWP/CMCP/i805_purple_line/analysis/off_model_calc/Alt1"
+    output_file_name: "transit_subsidy_calculator_results_2035_sb2s_alt1.xlsx"

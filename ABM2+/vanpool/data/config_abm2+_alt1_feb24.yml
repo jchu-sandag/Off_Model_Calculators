@@ -1,0 +1,30 @@
+inputs:
+    mgra_scen_input_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt1/input/mgra13_based_input2035.csv"
+    skim_scen_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt1/output/traffic_skims_AM.omx"
+    individual_tours_output_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt1/output/indivTourData_3.csv"
+    skim_base_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2020/output/traffic_skims_AM.omx"
+    mgra_base_input_file: "T:/projects/sr14/OWP/CMCP/i805_purple_line/abm_runs/2035_sb2s_alt1/input/mgra13_based_input2035.csv"
+    vanpool_od_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/vanpool/data/external/vanpool_od.csv"
+    geography_xwalk_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/vanpool/data/external/mgra13_taz_msa.csv"
+    msa_names_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/vanpool/data/external/msa_code_to_name_mapping.csv"
+    emission_factors_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/vanpool/data/external/co2_emissions_rates.xlsx"
+    employment_forecast_scag_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/vanpool/data/external/employment_forecast_SCAG.csv"
+    zipcode_coordinates_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/vanpool/data/external/zipcode_coordinates.csv"
+    external_gateways_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/vanpool/data/external/external_gateways.csv"
+    corridors_mgra_xwalk_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/ABM2+/vanpool/data/external/corridors_mgra.csv"
+
+parameters:
+    base_year: 2020
+    scen_year: 2035
+    c_ivt: -0.016
+    avg_vanpool_occupancy: 0.8
+    pct_work_trips_over_50mi: 2.70
+    sov_am_time_core_name: "AM_SOV_NT_L_TIME"
+    hov_am_time_core_name: "AM_HOV3_H_TIME"    
+    military_base_taz: [4341, 4392, 4047, 2200, 2279, 2159, 143] 
+    # abm_version value can be "ABM2" or "ABM2+"
+    abm_version: "ABM2+" 
+
+outputs:
+    output_dir: "T:/projects/sr14/OWP/CMCP/i805_purple_line/analysis/off_model_calc"
+    output_file_name: "vanpool_calculator_results_2035_sb2s_alt1_SOVL_HOV3H.xlsx"

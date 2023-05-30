@@ -1,0 +1,9 @@
+person_type,target_population
+Child too young for school,No
+Full-time worker,Yes
+Non-worker,No
+Part-time worker,No
+Retired,No
+Student of driving age,No
+Student of non-driving age,No
+University student,No

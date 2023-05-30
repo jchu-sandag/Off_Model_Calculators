@@ -1,0 +1,19 @@
+inputs:
+    highway_load_am_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/hwyload_AM.csv"
+    highway_load_md_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/hwyload_MD.csv"   
+    highway_load_pm_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/hwyload_PM.csv"
+    highway_load_ea_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/hwyload_EA.csv"
+    highway_load_ev_file: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/hwyload_EV.csv"
+    highway_network_shapefile: "T:/RTP/2021RP/2021rp_final/abm_runs/2035_vision/report/hwyload_475.shp"
+    cmcp_corridors_shapefile: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/freight_ev/data/external/CMCP_shapefile/CMCPCorridors.shp"
+    freight_ev_strategy_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/freight_ev/data/external/freight_ev_conversion_strategy.csv"
+    emission_factors_file: "T:/projects/sr14/OWP/CMCP/off_model_calculators/omc_Feb092022/freight_ev/data/external/co2_emissions_rates.xlsx"
+    
+parameters:
+    scen_year: 2035
+    truck_ev_conversion_factor : 0.3
+    corridor_name: "South Bay to Sorrento"
+
+outputs:
+    output_dir: "T:/RTP/2021RP/2021rp_final/analysis/omc_test/2035/2035_visionFeb09"
+    output_file_name: "freight_ev_calculator_results_2035_vision.xlsx"

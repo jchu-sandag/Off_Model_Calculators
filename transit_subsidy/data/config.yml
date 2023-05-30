@@ -1,0 +1,24 @@
+inputs:
+    individual_trips_output_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/data/external/model_run/2035_sb2s_nb_v2/output/indivTripData_3.csv"
+    person_data_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/data/external/model_run/2035_sb2s_nb_v2/output/personData_3.csv"
+    household_data_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/data/external/model_run/2035_sb2s_nb_v2/output/householdData_3.csv"
+    emission_factors_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/transit_subsidy/data/external/co2_emissions_rates.xlsx"
+    skim_matrix_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/data/external/model_run/2035_sb2s_nb_v2/output/traffic_skims_EV.omx"
+    geography_xwalk_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/transit_subsidy/data/external/mgra13_taz_msa.csv"
+    person_type_target_population_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/transit_subsidy/data/external/person_type_target_population.csv"
+    trip_purpose_target_population_file: "D:/Projects/SANDAG/client_sandag_off_model_calculators/transit_subsidy/data/external/tour_purpose_target_population.csv"
+    origin_geography_file: 
+    destination_geography_file: 
+parameters:
+    scen_year: 2035
+    low_income_threshold: 50000
+    fare_ridership_elasticity: -0.43
+    percent_fare_subsidy: 50
+    auto_to_transit_switch_factor: 0.5
+    auto_modes: [1, 2, 3, 4, 5, 6]
+    transit_modes: [9, 10, 11]
+    sov_ev_dist_core_name: "EV_SOVGPM_DIST"
+    hov_ev_dist_core_name: "EV_HOV2HOVM_DIST"
+outputs:
+    output_dir: "D:/Projects/SANDAG/client_sandag_off_model_calculators/transit_subsidy/data/interim"
+    output_file_name: "transit_subsidy_calculator_results.xlsx"

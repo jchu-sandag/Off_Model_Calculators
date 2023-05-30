@@ -1,0 +1,11 @@
+project: advanced traffic management systems test
+intersections:
+    intersection_node_id:
+    - 15381
+    - 15385
+    - 15387
+    mainline_corridor_name:
+    - EL CAJON 
+    - EL CAJON     
+    - EL CAJON
+    intersection_delays_in_minutes:

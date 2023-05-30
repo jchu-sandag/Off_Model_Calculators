@@ -1,0 +1,3 @@
+data/external/model_run
+transit_signal_priority/src/.ipynb_checkpoints/
+*.pyc
