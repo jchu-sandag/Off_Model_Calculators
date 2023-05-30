@@ -1,0 +1,8 @@
+data/external/model_run
+transit_subsidy/src/.ipynb_checkpoints/
+advanced_traffic_management_systems/src/.ipynb_checkpoints/
+transit_signal_priority/src/.ipynb_checkpoints/
+freight_ev/src/.ipynb_checkpoints/*.ipynb
+transit_ev/src/.ipynb_checkpoints/*.ipynb
+vanpool/src/.ipynb_checkpoints/*.ipynb
+vanpool/.idea
