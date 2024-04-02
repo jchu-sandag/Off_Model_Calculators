@@ -1,13 +1,14 @@
 # Off_Model_Calculators
-Off model calculators to capture VMT and GHG reduction from strategies not addressed by ABM2 or ABM2+ or ABM3
 
-If running process for the first time, run all steps to create the conda environment. If repeating process, simply run step 2 and 5
+Off-model calculators to capture VMT and GHG reduction from vanpool and carshare strategies not addressed by ABM3
+
+If running the process for the first time, run all steps to create the conda environment. If repeating the process, simply run step 2 and 5
 
 1. To create the conda environment for OMC, run
 conda create -n env_omc
 
 ______________________________________________________________________________________________
-2. To activate conda enviroment, run
+2. To activate conda environment, run
 conda activate env_omc
 
 ______________________________________________________________________________________________
@@ -15,7 +16,7 @@ ________________________________________________________________________________
 conda install --file=env_packages.txt
 
 ______________________________________________________________________________________________
-4. To intall "openmatrix" package to conda environment, run
+4. To install "openmatrix" package to conda environment, run
 conda install conda-forge::openmatrix
 
 ______________________________________________________________________________________________
@@ -23,6 +24,6 @@ ________________________________________________________________________________
 to ".bat" file and call "omc_batch-abm3.bat"
 
 ______________________________________________________________________________________________
-** Note: process dveloped based on conda version 24.3.0. The command for other versions might be different
+** Note: process developed based on conda version 24.3.0. The command for other versions might be different
 
-Off model calculators to capture VMT and GHG reduction from vanpool and carshare strategies not addressed by ABM3
+
