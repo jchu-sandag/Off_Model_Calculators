@@ -25,3 +25,4 @@ to ".bat" file and call "omc_batch-abm3.bat"
 ______________________________________________________________________________________________
 ** Note: process dveloped based on conda version 24.3.0. The command for other versions might be different
 
+Off model calculators to capture VMT and GHG reduction from vanpool and carshare strategies not addressed by ABM3
