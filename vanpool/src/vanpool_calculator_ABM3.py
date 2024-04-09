@@ -1,18 +1,12 @@
-# %% [markdown]
-# # VANPOOL CALCULATOR
-
-# %% [markdown]
-# ### PROJECT SETUP
-
 # %%
-# Python 3.10.0
-# Import libraries
+# Python 3.11.7
 
 # Import libraries
 import pandas as pd
 pd.options.mode.chained_assignment = None  # default='warn'
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
+
 import numpy as np
 import openmatrix as omx
 import yaml

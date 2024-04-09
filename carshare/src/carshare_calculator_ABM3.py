@@ -1,6 +1,5 @@
 # %%
-# Python 3.10.0
-# Import libraries
+# Python 3.11.7
 
 # Import libraries
 import pandas as pd
