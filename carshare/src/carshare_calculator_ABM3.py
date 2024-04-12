@@ -116,7 +116,7 @@ if __name__ == "__main__":
     # household_input_file = r"C:\OMC\Carshare OMC\ABM3\inputs\households.csv"
     # geography_xwalk_file = r"C:\OMC\Carshare OMC\ABM3\inputs\xref_MGRA_TAZ_MSA.csv"
     # emission_factors_file = r"C:\OMC\Carshare OMC\ABM3\inputs\co2_emissions_rates.xlsx"
-    # carshare_file = r"C:\OMC\Carshare OMC\ABM3\inputs\mgra_carshare_inputs.csv"
+    # carshare_file = r"C:\OMC\Carshare OMC\ABM3\inputs\mgra_carshare_inputs_s15.csv"
 
     # # output file path
     # output_dir = r"C:\OMC\Carshare OMC\ABM3\outputs"

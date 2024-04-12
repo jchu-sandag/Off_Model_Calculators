@@ -5,7 +5,7 @@ inputs:
     household_input_file: "C:/Regional Plan ABM3 OMC/carshare/data/input/households.csv"
     geography_xwalk_file: "C:/Regional Plan ABM3 OMC/carshare/data/input/xref_MGRA_TAZ_MSA.csv"
     emission_factors_file: "C:/Regional Plan ABM3 OMC/carshare/data/input/co2_emissions_rates.xlsx"
-    carshare_mgra_file: "C:/Regional Plan ABM3 OMC/carshare/data/input/mgra_carshare_inputs.csv"
+    carshare_mgra_file: "C:/Regional Plan ABM3 OMC/carshare/data/input/mgra_carshare_inputs_s15.csv"
 
 parameters:
     base_year: 2022
