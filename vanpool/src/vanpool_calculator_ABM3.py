@@ -149,8 +149,8 @@ if __name__ == "__main__":
     # avg_vanpool_occupancy = 0.7
     # military_base_taz = [4341, 4392, 4047, 2200, 2279, 2159, 143]
     # pct_work_trips_over_50mi = 2.7
-    # sov_time_core_name = 'SOV_NT_M_TIME__AM'
-    # hov_time_core_name = 'HOV3_M_TIME__AM' 
+    # sov_time_core_name = 'SOV_NT_H_TIME__AM'
+    # hov_time_core_name = 'HOV3_H_TIME__AM' 
     # abm_version = 'ABM3'
 
     ##############################################
