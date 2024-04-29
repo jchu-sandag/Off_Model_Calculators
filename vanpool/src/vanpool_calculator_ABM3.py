@@ -82,7 +82,7 @@ if __name__ == "__main__":
         raise ValueError(msg)
 
     # Read config file manually
-    config_filename = r"C:/Regional Plan ABM3 OMC/vanpool/data/input/config_abm3.yml"
+    # config_filename = r"C:/Regional Plan ABM3 OMC/vanpool/data/input/config_abm3.yml"
 
     with open(config_filename, "r") as yml_file:
         config = yaml.safe_load(yml_file)
