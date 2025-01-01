@@ -75,7 +75,10 @@ start_time = print_start_time()
 if __name__ == "__main__":
     args = sys.argv
     config_filename = args[1]
+    omc_dir = args[2]
     # print(config_filename)
+
+    vanpool_dir = r'vanpool\data'
 
     if not os.path.exists(config_filename):
         msg = "Configuration file doesn't exist at: {}".format(config_filename)
@@ -89,25 +92,52 @@ if __name__ == "__main__":
 
     # Read config: inputs
 
+    base_year = config['parameters']['base_year']
+    scen_year = config['parameters']['scen_year']
+
     # ABM3 Data
-    mgra_base_input_file = config['inputs']['mgra_base_input_file']
-    mgra_scen_input_file = config['inputs']['mgra_scen_input_file']
-    skim_base_file = config['inputs']['skim_base_file']
-    skim_scen_file = config['inputs']['skim_scen_file']
-    individual_tours_file = config['inputs']['individual_tours_output_file']
+    mgra_scen_input_file = os.path.join(omc_dir,
+                                        vanpool_dir,
+                                        rf"input\mgra15_based_input{scen_year}.csv")
+    mgra_base_input_file = os.path.join(omc_dir,
+                                        vanpool_dir,
+                                        rf"input\mgra15_based_input{base_year}.csv")
+    skim_base_file = os.path.join(omc_dir,
+                                  vanpool_dir,
+                                  rf"input\traffic_skims_AM_{base_year}.omx")
+    skim_scen_file = os.path.join(omc_dir,
+                                  vanpool_dir,
+                                  rf"input\traffic_skims_AM_{scen_year}.omx")
+    individual_tours_file = os.path.join(omc_dir,
+                                         vanpool_dir,
+                                         r"input\indivTourData.csv")
 
     # External Data
-    vanpool_od_file = config['inputs']['vanpool_od_file'] # Data updated to September 2022 vanpool report
-    employment_forecast_scag_file = config['inputs']['employment_forecast_scag_file'] # Data updated based on most recent numbers provided on November 2023 (SCAG Draft 2024 RTP)
-    emission_factors_file = config['inputs']['emission_factors_file']
-    zipcode_coordinates_file = config['inputs']['zipcode_coordinates_file']
-    external_gateways_file = config['inputs']['external_gateways_file']
-    geography_xwalk_file = config['inputs']['geography_xwalk_file'] # mgra-msa-zip reference file is updated to ABM3
-    msa_names_file = config['inputs']['msa_names_file'] # MSA codes remain the same
+    vanpool_od_file = os.path.join(omc_dir,
+                                   vanpool_dir,
+                                   r"vanpool_od.csv") # Data updated to September 2022 vanpool report
+    employment_forecast_scag_file = os.path.join(omc_dir,
+                                                 vanpool_dir,
+                                                 'employment_forecast_SCAG.csv') # Data updated based on most recent numbers provided on November 2023 (SCAG Draft 2024 RTP)
+    emission_factors_file = os.path.join(omc_dir,
+                                         vanpool_dir,
+                                         'co2_emissions_rates.xlsx')
+    zipcode_coordinates_file = os.path.join(omc_dir,
+                                            vanpool_dir,
+                                            'ZipCode_Coordinates.csv')
+    external_gateways_file = os.path.join(omc_dir,
+                                          vanpool_dir,
+                                          'External_Gateways.csv')
+    geography_xwalk_file = os.path.join(omc_dir,
+                                        vanpool_dir,
+                                        'xref_MGRA_TAZ_MSA.csv') # mgra-msa-zip reference file is updated to ABM3
+    msa_names_file = os.path.join(omc_dir,
+                                  vanpool_dir,
+                                  'msa_code_to_name_mapping.csv') # MSA codes remain the same
 
     # Read config: outputs
-    output_dir = config['outputs']['output_dir']
-    output_results_filename = config['outputs']['output_file_name']
+    output_dir = os.path.join(omc_dir, vanpool_dir, "output")
+    output_results_filename = "vanpool_calculator_results.xlsx"
 
     # Read config: parameters
     base_year = config['parameters']['base_year']

@@ -71,6 +71,9 @@ start_time = print_start_time()
 if __name__ == "__main__":
     args = sys.argv
     config_filename = args[1]
+    omc_dir = args[2]
+
+    carshare_dir = r'carshare\data'
     # print(config_filename)
 
     if not os.path.exists(config_filename):
@@ -83,18 +86,36 @@ if __name__ == "__main__":
     with open(config_filename, "r") as yml_file:
         config = yaml.safe_load(yml_file)
 
-    mgra_scen_input_file = config['inputs']['mgra_scen_input_file']
-    mgra_base_input_file = config['inputs']['mgra_base_input_file']
-    household_input_file = config['inputs']['household_input_file']
-    person_input_file = config['inputs']['person_input_file']
-    geography_xwalk_file = config['inputs']['geography_xwalk_file']
-    emission_factors_file = config['inputs']['emission_factors_file']
-    carshare_file = config['inputs']['carshare_mgra_file']
+    base_year = config['parameters']['base_year']
+    scen_year = config['parameters']['scen_year']
+
+    mgra_scen_input_file = os.path.join(omc_dir,
+                                        carshare_dir,
+                                        rf"input\mgra15_based_input{scen_year}.csv")
+    mgra_base_input_file = os.path.join(omc_dir,
+                                        carshare_dir,
+                                        rf"input\mgra15_based_input{base_year}.csv")
+    household_input_file = os.path.join(omc_dir,
+                                        carshare_dir,
+                                        r"input\households.csv")
+    person_input_file = os.path.join(omc_dir,
+                                     carshare_dir,
+                                     r"input\persons.csv")
+    geography_xwalk_file = os.path.join(omc_dir,
+                                        carshare_dir,
+                                        r"input\xref_MGRA_TAZ_MSA.csv")
+    emission_factors_file = os.path.join(omc_dir,
+                                         carshare_dir,
+                                         r"input\co2_emissions_rates.xlsx")
+    carshare_file = os.path.join(omc_dir,
+                                 carshare_dir,
+                                 r"input\mgra_carshare_inputs_s15.csv")
 
     # output path
     # read config: outputs
-    output_dir = config['outputs']['output_dir']
-    output_results_filename = config['outputs']['output_file_name']
+    output_dir = os.path.join(omc_dir, carshare_dir, "output")
+                              
+    output_results_filename = "carshare_calculator_results.xlsx"
 
     # read config: parameters
     population_density_threshold = config['parameters']['population_density_threshold']
