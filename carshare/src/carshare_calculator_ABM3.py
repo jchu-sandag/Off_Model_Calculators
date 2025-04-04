@@ -1,4 +1,3 @@
-# %%
 # Python 3.11.7
 
 # Import libraries
@@ -7,8 +6,6 @@ pd.options.mode.chained_assignment = None  # default='warn'
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
-import numpy as np
-import openmatrix as omx
 import yaml
 import sys
 import os
@@ -60,7 +57,6 @@ def print_end_time(start_time):
     print("============================================")
     return end_time
 
-# %%
 # Read input/output files
 start_time = print_start_time()
 
@@ -76,9 +72,6 @@ if __name__ == "__main__":
     if not os.path.exists(config_filename):
         msg = "Configuration file doesn't exist at: {}".format(config_filename)
         raise ValueError(msg)
-
-    # Read config file manually
-    # config_filename = r"C:/Regional Plan ABM3 OMC/carshare/data/input/config_abm3.yml"
 
     with open(config_filename, "r") as yml_file:
         config = yaml.safe_load(yml_file)
@@ -106,44 +99,8 @@ if __name__ == "__main__":
     scen_year = config['parameters']['scen_year']
     daily_vmt_reduction_carshare = config['parameters']['daily_vmt_reduction_carshare']
 
-    ###################################################################
-    ########   READ INPUT/OUTPUT FILE NAMES MANUALLY   ################
-    ###################################################################
-
-    # mgra_scen_input_file = r"C:\OMC\Carshare OMC\ABM3\inputs\mgra15_based_input2035.csv"
-    # mgra_base_input_file = r"C:\OMC\Carshare OMC\ABM3\inputs\mgra15_based_input2022.csv"
-    # person_input_file = r"C:\OMC\Carshare OMC\ABM3\inputs\persons.csv"
-    # household_input_file = r"C:\OMC\Carshare OMC\ABM3\inputs\households.csv"
-    # geography_xwalk_file = r"C:\OMC\Carshare OMC\ABM3\inputs\xref_MGRA_TAZ_MSA.csv"
-    # emission_factors_file = r"C:\OMC\Carshare OMC\ABM3\inputs\co2_emissions_rates.xlsx"
-    # carshare_file = r"C:\OMC\Carshare OMC\ABM3\inputs\mgra_carshare_inputs_s15.csv"
-
-    # # output file path
-    # output_dir = r"C:\OMC\Carshare OMC\ABM3\outputs"
-    # output_results_filename = r"carshare_calculator_results.xlsx"
-
-    # # parameters
-    # base_year = 2022
-    # scen_year = 2035
-
-    # # 2016-2017 San Diego Regional Transportation Study (SANDAG, 2017). The 2016-2017 San Diego Regional Transportation Study reports that approximately 2 percent of the San Diego population are carshare participants. In the San Diego region, coverage areas with a population density greater than 17 persons per acre are assumed to reflect these participation rates.
-    # population_density_threshold = 17 
-
-    # # carshare participation rates based on (Petersen et al, 2016). Data for the Puget Sound region indicates that carshare participation in the Seattle-Bellevue-Redmond area is 2 percent in urban neighborhoods and 0.5 percent in suburban neighborhoods. In the San Diego region, coverage areas with a population density less than 17 persons per acre are assumed to reflect the participation rates of lower density neighborhoods in the Puget Sound region.
-    # high_density_carshare_participation = 0.02
-    # low_density_carshare_participation = 0.005
-
-    # # Local data on the carshare participation at colleges is unavailable. Participation rates are assumed equal to higher density area carshare participation rates
-    # college_carshare_participation = 0.02
-
-    # # Local data on the carshare participation at military bases is unavailable. Participation rates are assumed equal to higher density area carshare participation rates.
-    # military_carshare_participation = 0.02
-
-    # # Estimated based on data for San Francisco’s City CarShare service (7.0 miles per day)
-    # daily_vmt_reduction_carshare = 7
-
     ##############################################
-    ########   OPEN INPUT FILES   ################
+    ########   READ INPUT FILES   ################
     ##############################################
 
     # read data
@@ -156,10 +113,9 @@ if __name__ == "__main__":
     carshare_df = pd.read_csv(carshare_file)
     emission_df = pd.read_excel(emission_factors_file)
 
-    # %%
     # calculate adult population by mgra
     # filter adult population to 18-65 years old
-    adults_df = person_input_df[(person_input_df["age"] > 18) & (person_input_df["age"] < 65)]
+    adults_df = person_input_df[(person_input_df["age"] >= 18) & (person_input_df["age"] <= 65)]
 
     # join household information to individuals in the data
     adults_df = pd.merge(adults_df, household_input_df, on = "hhid", how = "left")
@@ -169,12 +125,10 @@ if __name__ == "__main__":
 
     adults_mgra_df.head()
 
-    # %%
     # extract carshare numbers by mgra for the scenario year
     carshare_mgra_df = carshare_df[carshare_df["year"] == scen_year]
     carshare_mgra_df.head()
 
-    # %%
     # join "adult population data by mgra" and "carshare data by mgra" to the input mgra for scenario year
     data_df = pd.merge(mgra_scen_input_df, adults_mgra_df, on = "mgra", how = "left")
     data_df = pd.merge(data_df, carshare_mgra_df, left_on = "mgra", right_on = "mgra_15", how = "left")
@@ -192,7 +146,6 @@ if __name__ == "__main__":
     data_df = data_df[["mgra", "pop", "adult_pop", "pop_density", "acres", "student_enrollment", "emp_total", "MoHub_carshare_flag", "univ_flag", "MLB_flag"]]
     data_df.head()
 
-    # %%
     # build df that includes carshare market participations
     # copy data_df into a new df called regional_df
     regional_df = data_df.copy()
@@ -214,13 +167,11 @@ if __name__ == "__main__":
 
     regional_df.head()
 
-    # %%
     # read emission factors for the scenario year from the EMFAC outputs
     emission_df_scen = emission_df[(emission_df["Year"] == scen_year) & (emission_df["Vehicle Type"] == "Passenger Car")]
     emission_df_scen.reset_index(inplace = True, drop = True)
     emission_df_scen
 
-    # %%
     # calculate VMT & GHG reduction
     co2_runex_emission_factor = emission_df_scen["CO2 RunEx Emission Factor (tons/mile)"].values[0]
 
@@ -244,7 +195,7 @@ if __name__ == "__main__":
     daily_ghg_per_capita_reduction = total_ghg_reduction * 2000 / regional_population 
 
     ###################################################
-    ##########   BY SEGMENT RESUTLS    ################
+    ##########   BY SEGMENT RESULTS    ################
     ###################################################
 
     # carshare market by segment
@@ -281,7 +232,6 @@ if __name__ == "__main__":
 
     regional_results_df
 
-    # %%
     # export outputs
     # write result tables into a df
     results_dict = {"Regional_Results": regional_results_df,
@@ -292,6 +242,5 @@ if __name__ == "__main__":
         for key, value in results_dict.items():
             value.to_excel(writer, sheet_name = key, index = False)
             
-            
     print_end_time(start_time)
-    print("END OF SCRIPT")
+    print("END OF SCRIPT\n")

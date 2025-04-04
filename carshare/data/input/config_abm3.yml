@@ -1,11 +1,11 @@
 inputs:
-    mgra_scen_input_file: "C:/Regional Plan ABM3 OMC/carshare/data/input/mgra15_based_input2035.csv"
-    mgra_base_input_file: "C:/Regional Plan ABM3 OMC/carshare/data/input/mgra15_based_input2022.csv"
-    person_input_file: "C:/Regional Plan ABM3 OMC/carshare/data/input/persons.csv"
-    household_input_file: "C:/Regional Plan ABM3 OMC/carshare/data/input/households.csv"
-    geography_xwalk_file: "C:/Regional Plan ABM3 OMC/carshare/data/input/xref_MGRA_TAZ_MSA.csv"
-    emission_factors_file: "C:/Regional Plan ABM3 OMC/carshare/data/input/co2_emissions_rates.xlsx"
-    carshare_mgra_file: "C:/Regional Plan ABM3 OMC/carshare/data/input/mgra_carshare_inputs_s15.csv"
+    mgra_scen_input_file: "path to scenario's input/mgra15_based_input{year}.csv"
+    mgra_base_input_file: "path to corresponding base scenario's input/mgra15_based_input2022.csv"
+    person_input_file: "path to scenario's input/persons.csv"
+    household_input_file: "path to scenario's input/households.csv"
+    geography_xwalk_file: "relative path to Off_Model_Calculators/carshare/data/input/xref_MGRA_TAZ_MSA.csv"
+    emission_factors_file: "relative path to Off_Model_Calculators/carshare/data/input/co2_emissions_rates.xlsx"
+    carshare_mgra_file: "relative path to Off_Model_Calculators/carshare/data/input/mgra_carshare_inputs_s15.csv"
 
 parameters:
     base_year: 2022
@@ -18,5 +18,5 @@ parameters:
     daily_vmt_reduction_carshare : 7
 
 outputs:
-    output_dir: "C:/Regional Plan ABM3 OMC/carshare/data/output"
+    output_dir: "path to output directory"
     output_file_name: "carshare_calculator_results.xlsx"

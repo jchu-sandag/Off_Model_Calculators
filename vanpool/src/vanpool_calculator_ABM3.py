@@ -1,4 +1,3 @@
-# %%
 # Python 3.11.7
 
 # Import libraries
@@ -61,10 +60,8 @@ def print_end_time(start_time):
     print("============================================")
     return end_time
 
-# %% [markdown]
-# ### READ INPUTS & OUTPUTS FROM CONFIG FILE
+#### READ INPUTS & OUTPUTS FROM CONFIG FILE
 
-# %%
 # Open config file & read inputs
 start_time = print_start_time()
 
@@ -81,9 +78,6 @@ if __name__ == "__main__":
         msg = "Configuration file doesn't exist at: {}".format(config_filename)
         raise ValueError(msg)
 
-    # Read config file manually
-    # config_filename = r"C:/Regional Plan ABM3 OMC/vanpool/data/input/config_abm3.yml"
-
     with open(config_filename, "r") as yml_file:
         config = yaml.safe_load(yml_file)
 
@@ -97,13 +91,13 @@ if __name__ == "__main__":
     individual_tours_file = config['inputs']['individual_tours_output_file']
 
     # External Data
-    vanpool_od_file = config['inputs']['vanpool_od_file'] # Data updated to September 2022 vanpool report
-    employment_forecast_scag_file = config['inputs']['employment_forecast_scag_file'] # Data updated based on most recent numbers provided on November 2023 (SCAG Draft 2024 RTP)
+    vanpool_od_file = config['inputs']['vanpool_od_file'] 
+    employment_forecast_scag_file = config['inputs']['employment_forecast_scag_file'] 
     emission_factors_file = config['inputs']['emission_factors_file']
     zipcode_coordinates_file = config['inputs']['zipcode_coordinates_file']
     external_gateways_file = config['inputs']['external_gateways_file']
-    geography_xwalk_file = config['inputs']['geography_xwalk_file'] # mgra-msa-zip reference file is updated to ABM3
-    msa_names_file = config['inputs']['msa_names_file'] # MSA codes remain the same
+    geography_xwalk_file = config['inputs']['geography_xwalk_file'] 
+    msa_names_file = config['inputs']['msa_names_file'] 
 
     # Read config: outputs
     output_dir = config['outputs']['output_dir']
@@ -112,49 +106,16 @@ if __name__ == "__main__":
     # Read config: parameters
     base_year = config['parameters']['base_year']
     scen_year = config['parameters']['scen_year']
-    c_ivt = config['parameters']['c_ivt'] # the value remains the same as ABM2+
-    avg_vanpool_occupancy = config['parameters']['avg_vanpool_occupancy'] # Minimum vehicle occupancy was 80% based on Vanpool Program Guidelines. [source: SANDAG Vanpool Program Guidelines as of July 2023]. However, after covid, an occupancy ratio of 70% was also accepted to provide a vanpool service. As such, the value is modified to 70%.
-    pct_work_trips_over_50mi = config['parameters']['pct_work_trips_over_50mi'] # Estimation of the proportion of workers that travel more than 50 miles to work, based on a sample of 4,330 commuters. There are 2,626 commuters with a work location in San Diego County, 72 travel more than 50 miles, so 2.7% have a commute longer than 50 miles. [source: 2018 Commute Behavior Survey, SANDAG, 2018]
-    sov_time_core_name = config['parameters']['sov_am_time_core_name'] # Name of the travel time matrix, AM period, singleoccupant car mode
-    hov_time_core_name = config['parameters']['hov_am_time_core_name'] # HOV data is used to estimate travel time saving.
-    military_base_taz = config['parameters']['military_base_taz'] # Military bases remain the same as inputs for ABM2+
+    c_ivt = config['parameters']['c_ivt'] 
+    avg_vanpool_occupancy = config['parameters']['avg_vanpool_occupancy'] 
+    pct_work_trips_over_50mi = config['parameters']['pct_work_trips_over_50mi'] 
+    sov_time_core_name = config['parameters']['sov_am_time_core_name'] 
+    hov_time_core_name = config['parameters']['hov_am_time_core_name'] 
+    military_base_taz = config['parameters']['military_base_taz'] 
     abm_version = config['parameters']['abm_version']
 
-    ###################################################################
-    ########   READ INPUT/OUTPUT FILE NAMES MANUALLY   ################
-    ###################################################################
-
-    # # input
-    # mgra_base_input_file = r"C:\OMC\Vanpool OMC\ABM3\inputs\mgra15_based_input2022.csv"
-    # mgra_scen_input_file = r"C:\OMC\Vanpool OMC\ABM3\inputs\mgra15_based_input2035.csv"
-    # skim_base_file = r"C:\OMC\Vanpool OMC\ABM3\inputs\traffic_skims_AM_2022.omx"
-    # skim_scen_file = r"C:\OMC\Vanpool OMC\ABM3\inputs\traffic_skims_AM_2035.omx"
-    # individual_tours_file = r"C:\OMC\Vanpool OMC\ABM3\inputs\indivTourData.csv"
-    # vanpool_od_file = r"C:\OMC\Vanpool OMC\ABM3\inputs\vanpool_od.csv"
-    # employment_forecast_scag_file = r"C:\OMC\Vanpool OMC\ABM3\inputs\employment_forecast_SCAG.csv"
-    # emission_factors_file = r"C:\OMC\Vanpool OMC\ABM3\inputs\co2_emissions_rates.xlsx"
-    # zipcode_coordinates_file = r"C:\OMC\Vanpool OMC\ABM3\inputs\ZipCode_Coordinates.csv"
-    # external_gateways_file = r"C:\OMC\Vanpool OMC\ABM3\inputs\External_Gateways.csv"
-    # geography_xwalk_file = r"C:\OMC\Vanpool OMC\ABM3\inputs\xref_MGRA_TAZ_MSA.csv"
-    # msa_names_file = r"C:\OMC\Vanpool OMC\ABM3\inputs\msa_code_to_name_mapping.csv"
-
-    # # output
-    # output_dir = r"C:\OMC\Vanpool OMC\ABM3\outputs"
-    # output_results_filename = r"vanpool_calculator_results.xlsx"
-
-    # # parameters
-    # base_year = 2022
-    # scen_year = 2035
-    # c_ivt = -0.016
-    # avg_vanpool_occupancy = 0.7
-    # military_base_taz = [4341, 4392, 4047, 2200, 2279, 2159, 143]
-    # pct_work_trips_over_50mi = 2.7
-    # sov_time_core_name = 'SOV_NT_H_TIME__AM'
-    # hov_time_core_name = 'HOV3_H_TIME__AM' 
-    # abm_version = 'ABM3'
-
     ##############################################
-    ########   OPEN INPUT FILES   ################
+    ########   READ INPUT FILES   ################
     ##############################################
 
     vanpool_od_df = pd.read_csv(vanpool_od_file)
@@ -168,10 +129,8 @@ if __name__ == "__main__":
     external_gateways_df = pd.read_csv(external_gateways_file)
     indiv_tours_df = pd.read_csv(individual_tours_file)
 
-    # %% [markdown]
-    # ### VANPOOL DEMAND DUE TO REGIONAL EMPLOYMENT GROWTH
+    #### VANPOOL DEMAND DUE TO REGIONAL EMPLOYMENT GROWTH
 
-    # %%
     # calculate distance traveled inside/outside of county
 
     # drop unused fields from vanpool df
@@ -213,7 +172,6 @@ if __name__ == "__main__":
 
     data_df.head()
 
-    # %%
     # estimate In County emp growth rates
 
     ### Base Year
@@ -255,7 +213,6 @@ if __name__ == "__main__":
 
     emp_growth_internal
 
-    # %%
     # estimate Out of County emp growth rates
 
     ### Base Year
@@ -281,7 +238,6 @@ if __name__ == "__main__":
 
     emp_growth_external
 
-    # %%
     # combine emp growth into one table
     emp_growth = pd.concat([emp_growth_internal[["MSA_Name", "emp_mil_growth", "emp_non_mil_growth"]], emp_growth_external[["MSA_Name", "emp_mil_growth", "emp_non_mil_growth"]]])
     emp_growth.columns = ["MSA_Name", "Military", "Non_Military"]
@@ -296,7 +252,6 @@ if __name__ == "__main__":
 
     emp_growth
 
-    # %%
     # calculate van numbers in scenario year
     # count total vans by industry type and destination
     data_df_vans_by_dest = data_df.groupby(by = ["Industry_Type", "D_MSA"])["VAN_ID"].count().to_frame()
@@ -323,7 +278,6 @@ if __name__ == "__main__":
 
     data_df_vans_by_dest
 
-    # %%
     # count total vans by industry type, origin and destination
     data_df_vans_by_od = data_df.groupby(["Industry_Type", "O_MSA", "D_MSA"])["VAN_ID"].count().to_frame()
     data_df_vans_by_od.reset_index(inplace = True)
@@ -342,16 +296,11 @@ if __name__ == "__main__":
     data_df_vans_by_od["Num_Vans_Scen"] = data_df_vans_by_od["Num_Vans_Base"] * data_df_vans_by_od["Emp_Growth"]
     data_df_vans_by_od["Num_Vans_Scen"] = data_df_vans_by_od["Num_Vans_Scen"].apply(lambda x: math.ceil(x))
 
-    # data_df_vans_by_od["Num_Vans_Scen"].sum()
-    # data_df_vans_by_dest["Num_Vans_By_Dest_Scen"].sum()
-
     data_df_vans_by_od.drop(columns = ["Num_Vans_By_Dest_Base", "Emp_Growth", "Num_Vans_By_Dest_Scen"], inplace = True)
     data_df_vans_by_od
 
-    # %% [markdown]
     # ### VANPOOL DEMAND DUE TO MANAGED LANE INFRASTRUCTURE INVESTMENTS
 
-    # %%
     # estimate probability of vanpool demand
 
     # estimate vanpool demand (two trips per day)
@@ -374,8 +323,6 @@ if __name__ == "__main__":
         "Probability of Vanpooling = %s percent" % (round(prob_vanpool * 100, 2))
         )
 
-
-    # %%
     # prepare a travel time df including travel times for SOV in BASE year
 
     ######################################
@@ -404,7 +351,6 @@ if __name__ == "__main__":
 
     travel_time_base_df.head(25)
 
-    # %%
     # prepare a travel time df including travel times for SOV, HOV2, and HOV3 in SCEN year
 
     ######################################
@@ -434,7 +380,6 @@ if __name__ == "__main__":
 
     travel_time_scen_df.head(25)
 
-    # %%
     # merge base and scenario year travel times into a single df
     travel_time_df = pd.merge(
             travel_time_base_df,
@@ -443,7 +388,6 @@ if __name__ == "__main__":
             how = "left"
         )
 
-    # %%
     # write Orig/Dest MSA names to the travel time df
     # the task is done in 2 steps (step 1 is internal MSA, step 2 is external MSA)
 
@@ -469,7 +413,6 @@ if __name__ == "__main__":
 
     travel_time_df.head()
 
-    # %%
     ##################################################
     ############   EXTERNAL MSA   ####################
     ##################################################
@@ -508,7 +451,6 @@ if __name__ == "__main__":
 
     travel_time_df.head()
 
-    # %%
     # calculate average travel time savings by comparing tavel times for SOV & HOV by MSA for ALL tazs
 
     # calculate travel time saveings of each taz
@@ -521,7 +463,6 @@ if __name__ == "__main__":
 
     travel_time_msa_df.head()
 
-    # %%
     # calculate average travel time savings by comparing tavel times for SOV & HOV by MSA for MILITARY tazs
 
     # make a copy of the travel time df
@@ -542,7 +483,6 @@ if __name__ == "__main__":
 
     travel_time_msa_mil_df.head()
 
-    # %%
     # merge results for military taz to all taz results
     travel_time_msa_df = pd.merge(travel_time_msa_df, travel_time_msa_mil_df, on=["O_MSA", "D_MSA"], how="left")
 
@@ -554,7 +494,6 @@ if __name__ == "__main__":
         
     travel_time_msa_df.head()
 
-    # %%
     # calculate demand elasticity with respect to travel time on MSA by MSA matrix
     # The elasticity of demand for vanpooling with respect to travel time was approximated using the formula for point elasticity derived from a logit model (Train, 1993)
     # Elasticity = (coefficient of in-vehicle time) * average travel time * (1 – probability of vanpooling)
@@ -574,7 +513,6 @@ if __name__ == "__main__":
 
     travel_time_msa_df.head()
 
-    # %%
     # calculate number of vans in the Scenario year based on calculated growth from travel time savings
     # write calculate growth factors to the vanpool OD data and write into new df
     vanpool_df = pd.merge(
@@ -597,10 +535,8 @@ if __name__ == "__main__":
     # total vanpool for the scenario year = number of vans in scenario year + number of new vans induced due to travel time saving
     vanpool_df["Num_Vans_Scen_Total"] = vanpool_df["Num_Vans_Scen"] + vanpool_df["Num_Vans_Scen_ML"]
 
-
     vanpool_df
 
-    # %%
     # summarize vanpool demand by industry type
     # vanpool demand by type
     vanpool_demand_df = vanpool_df.groupby(["Industry_Type"]).agg(
@@ -614,16 +550,13 @@ if __name__ == "__main__":
     vanpool_demand_df.reset_index(inplace=True)
     vanpool_demand_df
 
-    # %% [markdown]
-    # ### VANPOOL VMT & GHG REDUCTIONS
+    #### VANPOOL VMT & GHG REDUCTIONS
 
-    # %%
     # read emission factors for the scenario year from the EMFAC outputs
     emission_df_scen = emission_df[(emission_df["Year"] == scen_year) & (emission_df["Vehicle Type"] == "Passenger Car")]
     emission_df_scen.reset_index(inplace = True, drop = True)
     emission_df_scen
 
-    # %%
     # calculate average vanpool capacity and average passengers per vanpool
     vanpool_mean_stat_df = data_df.groupby(["Industry_Type"])[["Vehicle_Capacity", "Daily_Round_Trip_Mileage", "InCounty_Round_Trip_Mileage"]].mean()
     vanpool_mean_stat_df.reset_index(inplace=True)
@@ -644,7 +577,6 @@ if __name__ == "__main__":
 
     vanpool_mean_stat_df.head()
 
-    # %%
     # calculate VMT & GHG reduction
     co2_runex_emission_factor = emission_df_scen["CO2 RunEx Emission Factor (tons/mile)"].values[0]
     co2_strex_emission_factor = emission_df_scen["CO2 StrEx Emission Factor (tons/trip)"].values[0]
@@ -690,8 +622,6 @@ if __name__ == "__main__":
 
     regional_results_df
 
-
-    # %%
     # add totals as a new row to the vanpool demand df
     new_row = pd.DataFrame({
         'Industry_Type': ['TOTAL'],
@@ -717,10 +647,8 @@ if __name__ == "__main__":
     # print outputs
     vanpool_demand_df_export
 
-    # %% [markdown]
-    # ### EXPORT RESULTS
+    #### EXPORT RESULTS
 
-    # %%
     # export outputs
     # write result tables into a df
     results_dict = {
@@ -734,8 +662,5 @@ if __name__ == "__main__":
         for key, value in results_dict.items():
             value.to_excel(writer, sheet_name = key, index = False)
             
-            
     print_end_time(start_time)
-    print("END OF SCRIPT")
-
-
+    print("END OF SCRIPT\n")
