@@ -1,8 +1,8 @@
 inputs:
     mgra_scen_input_file: "path to scenario's input/mgra15_based_input{year}.csv"
-    skim_scen_file: "path to scenario's input/traffic_skims_AM.omx"
+    skim_scen_file: "path to scenario's output/skims/traffic_skims_AM.omx"
     individual_tours_output_file: "path to scenario's output/resident/final_tours.csv"
-    skim_base_file: "path to corresponding base scenario's input/traffic_skims_AM.omx"
+    skim_base_file: "path to corresponding base scenario's output/skims/traffic_skims_AM.omx"
     mgra_base_input_file: "path to corresponding base scenario's input/mgra15_based_input2022.csv"
     vanpool_od_file: "relative path to Off_Model_Calculators/vanpool/data/input/vanpool_od.csv"
     geography_xwalk_file: "relative path to Off_Model_Calculators/vanpool/data/input/xref_MGRA_TAZ_MSA.csv"
