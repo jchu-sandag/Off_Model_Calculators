@@ -1,0 +1,398 @@
+VAN_ID,Employer,Van_Type,Vehicle_Capacity,Industry,Industry_Type,O_MSA,O_Zip,D_MSA,D_Zip,Daily_Round_Trip_Mileage
+16,NASNI,2020 Ford TRANS - 7 Seats,7,Military,Military,North County East,92026,Central,92135,90
+18,NAB,2021 Volkswagen ATLAS - 7 Seats,7,Military,Military,East Suburban,92071,Central,92135,48
+32,Northrop Grumman,2020 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92592,North City,92128,94
+126,NASNI,2022 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92592,Central,92135,130
+172,NASNI,2021 Volkswagen ATLAS - 7 Seats,7,Military,Military,Orange County,92683,Central,92135,152
+178,Cubic Corp.,2021 Ford EXPL - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92592,North City,92123,110
+210,NASNI,2019 Ford TRANS - 8 Seats,8,Military,Military,East Suburban,92065,Central,92135,78
+226,Beckman Coulter,2022 Kia Sorento - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,South Suburban,91911,North County West,92010,78
+336,Naval Base San Diego,2019 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92592,Central,92136,124
+362,Camp Pendleton,2020 Nissan PATH - 7 Seats,7,Military,Military,Orange County,92679,North County West,92055,90
+384,Camp Pendleton,2021 Ford TRANS - 7 Seats,7,Military,Military,Central,92114,North County West,92055,90
+391,Camp Pendleton,2021 Ford EXPL - 7 Seats,7,Military,Military,Riverside County,92591,North County West,92055,70
+394,NASNI,2020 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92592,Central,92135,134
+431,US Border Patrol,2020 Nissan PATH - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91942,East County,91962,84
+467,Naval Medical Center,2021 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92584,Central,92134,154
+478,US Border Patrol,2021 Ford TRANS - 10 Seats,10,Government & Public Administration,Non_Military,East Suburban,91914,East County,91906,104
+479,MCRD,2021 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92545,Central,92140,170
+511,US Border Patrol,2021 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,South Suburban,91910,East County,91905,100
+523,Camp Pendleton,2020 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92545,North County West,92055,78
+525,Camp Pendleton,2019 Ford TRANS - 10 Seats,10,Military,Military,Riverside County,92591,North County West,92055,46
+560,NASNI,2021 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92584,Central,92135,136
+567,Solar Turbines,2019 Ford TRANS - 10 Seats,10,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92592,North City,92123,108
+574,NAB,2021 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92592,Central,92155,126
+576,US Border Patrol,2021 Ford TRANS - 10 Seats,10,Government & Public Administration,Non_Military,South Suburban,91913,East County,91905,104
+584,Naval Medical Center,2020 Ford EXPL - 7 Seats,7,Military,Military,North County West,92056,Central,92134,86
+609,Department of Defense,2018 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92562,North County East,92028,85
+611,Naval Base Point Loma,2021 Ford EXPL - 7 Seats,7,Military,Military,North County East,92026,Central,92147,124
+663,US Border Patrol,2020 Ford TRANS - 10 Seats,10,Government & Public Administration,Non_Military,Riverside County,92562,South Suburban,92154,150
+693,MCAS Miramar,2020 Ford TRANS - 10 Seats,10,Military,Military,Riverside County,92592,North City,92145,90
+719,Southwest Marine,2020 Nissan PATH - 7 Seats,7,Manufacturing,Non_Military,North County East,92069,Central,92113,70
+766,UCSD,2020 Ford TRANS - 9 Seats,9,Education Services & Academic Institutions,Non_Military,Riverside County,92596,North City,92093,128
+774,UCSD,2021 Ford TRANS - 7 Seats,7,Education Services & Academic Institutions,Non_Military,Riverside County,92592,North City,92093,130
+820,US Border Patrol,2021 Ford TRANS - 14 Seats,14,Government & Public Administration,Non_Military,Central,92134,East County,91962,168
+847,VA Medical Center,2022 Kia Sorento - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92592,North City,92161,114
+875,Naval Base San Diego,2022 Ford TRANS - 9 Seats,9,Military,Military,Riverside County,92592,Central,92136,148
+896,US Border Patrol,2021 Volkswagen ATLAS - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92592,South Suburban,92173,152
+930,US Border Patrol,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92021,East County,91906,66
+992,NASNI,2021 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92584,Central,92135,150
+1071,MCAS Miramar,2019 Nissan PATH - 7 Seats,7,Military,Military,Riverside County,92562,North City,92145,108
+1075,Naval Medical Center,2022 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92883,Central,92134,128
+1079,Naval Medical Center,2022 Kia Sorento - 7 Seats,7,Military,Military,Riverside County,92591,Central,92134,132
+1112,Solar Turbines,2021 Volkswagen ATLAS - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92595,North City,92123,100
+1120,Qualcomm,2019 Ford TRANS - 12 Seats,12,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92591,North City,92121,102
+1125,Camp Pendleton,2021 Volkswagen ATLAS - 7 Seats,7,Military,Military,Riverside County,92571,North County West,92055,132
+1205,BAE Systems,2020 Ford TRANS - 8 Seats,8,Manufacturing,Non_Military,Riverside County,92553,Central,92113,134
+1242,Naval Base Point Loma,2020 Buick ENCL - 7 Seats,7,Military,Military,Riverside County,92592,Central,92147,136
+1270,US Border Patrol,2021 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92071,East County,91962,80
+1293,East County Transitional Living,2018 Ford TRANS - 10 Seats,10,Food Services & Drinking Places,Non_Military,East Suburban,92021,Central,92101,70
+1340,TSA,2022 Kia Sorento - 7 Seats,7,Government & Public Administration,Non_Military,North County East,92026,Central,92101,128
+1360,Vista Courthouse - San Diego Superior Court,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92591,North County East,92081,56
+1383,Camp Pendleton,2020 Nissan PATH - 7 Seats,7,Military,Military,North County West,92058,North County West,92055,30
+1406,NASNI,2021 Ford TRANS - 7 Seats,7,Military,Military,Riverside County,92584,Central,92135,170
+1407,Barona Casino,2020 Nissan PATH - 7 Seats,7,"Arts, Entertainment, & Recreation",Non_Military,South Suburban,91911,East Suburban,92040,62
+1416,Camp Pendleton,2019 Ford TRANS - 7 Seats,7,Military,Military,Riverside County,92586,North County West,92055,92
+1418,NASNI,2019 Dodge DURA - 7 Seats,7,Military,Military,North City,92126,Central,92135,48
+1421,US Border Patrol,2020 Nissan PATH - 7 Seats,7,Government & Public Administration,Non_Military,East County,91901,East County,91905,70
+1460,US Border Patrol,2021 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,Central,92116,East County,91962,84
+1489,ATK Space Systems,2021 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92505,North City,92121,180
+1541,NAVWAR,2021 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92563,North City,92110,126
+1549,Camp Pendleton,2020 Nissan PATH - 7 Seats,7,Military,Military,Riverside County,92596,North County West,92055,76
+1554,VA Medical Center,2019 Ford EXPL - 7 Seats,7,Government & Public Administration,Non_Military,North City,92064,North City,92161,30
+1575,VA Medical Center,2020 Nissan PATH - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91915,North City,92161,64
+1581,VA Medical Center,2020 Nissan PATH - 7 Seats,7,Government & Public Administration,Non_Military,North County East,92027,North City,92161,64
+1592,NAB,2019 Mercedes Benz - Sprinter - 8 Seats,8,Military,Military,Riverside County,92545,Central,92155,132
+1594,NASNI,2021 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92563,Central,92135,144
+1598,BAE Systems,2021 Volkswagen ATLAS - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92562,Central,92113,132
+1614,US Border Patrol,2021 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,North City,92120,East County,91962,74
+1621,MCAS Miramar,2021 Volkswagen ATLAS - 7 Seats,7,Military,Military,Riverside County,92562,North City,92145,112
+1627,US Border Patrol,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92021,East County,91962,58
+1631,US Border Patrol,2019 Ford TRANS - 10 Seats,10,Government & Public Administration,Non_Military,Riverside County,92584,South Suburban,92154,146
+1658,VA Medical Center,2021 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,North County East,92026,North City,92161,70
+1665,Genentech,2020 Buick ENCL - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92592,North County West,92056,84
+1744,Camp Pendleton,2020 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92591,North County West,92055,64
+1750,VA Medical Center,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,North County East,92027,North City,92161,62
+1753,ATK Space Systems,2022 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92530,North City,92121,142
+1754,Camp Pendleton,2020 Buick ENCL - 7 Seats,7,Military,Military,Riverside County,92584,North County West,92055,68
+1761,VA Medical Center,2020 Buick ENCL - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92563,North City,92161,134
+1774,Northrop Grumman (Miramar Rd),2021 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,San Bernardino County,92336,North City,92121,172
+1817,Metropolitan Correctional Center,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92592,Central,92101,118
+1819,VA Medical Center,2021 Ford EXPL - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92563,North City,92161,124
+1836,NAB,2021 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92584,Central,92135,160
+1842,UCSD,2020 Ford TRANS - 9 Seats,9,Education Services & Academic Institutions,Non_Military,South Suburban,91911,North City,92093,42
+1859,Camp Pendleton,2020 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92562,North County West,92055,144
+1862,VA Medical Center,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91915,North City,92161,52
+1908,MCAS Miramar,2020 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92562,North City,92145,138
+1937,US Border Patrol,2022 Kia Sorento - 7 Seats,7,Government & Public Administration,Non_Military,North City,92120,East County,91962,86
+1952,NASNI,2021 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92584,Central,92135,154
+1954,US Navy,2021 Volkswagen ATLAS - 7 Seats,7,Military,Military,Riverside County,92563,Central,92106,138
+1956,Naval Base San Diego,2022 Kia Sorento - 7 Seats,7,Military,Military,Riverside County,92563,Central,92136,130
+1968,UCSD,2018 Ford TRANS - 9 Seats,9,Education Services & Academic Institutions,Non_Military,South Suburban,91911,North City,92093,54
+1978,Naval Base San Diego,2020 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92563,Central,92136,130
+1980,Camp Pendleton,2020 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92592,North County West,92055,64
+1982,Camp Pendleton,2020 Ford TRANS - 7 Seats,7,Military,Military,Riverside County,92592,North County West,92055,68
+1986,VA Medical Center,2019 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,South Suburban,91911,North City,92161,65
+2022,US Border Patrol,2021 Ford TRANS - 8 Seats,8,Government & Public Administration,Non_Military,East Suburban,91942,East County,91905,104
+2040,US Border Patrol,2019 Ford TRANS - 9 Seats,9,Government & Public Administration,Non_Military,East Suburban,91942,East County,91962,82
+2042,DEA,2020 Buick ENCL - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92563,North County East,92083,76
+2052,US Border Patrol,2021 Ford EXPE - 8 Seats,8,Government & Public Administration,Non_Military,East Suburban,92071,East County,91962,82
+2063,Naval Base San Diego,2019 Ford TRANS - 7 Seats,7,Military,Military,Riverside County,92592,Central,92136,164
+2091,Metropolitan Correctional Center,2021 Ford EXPL - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92563,Central,92101,128
+2104,NAB,2021 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92591,Central,92155,146
+2132,Nassco - General Dynamics,2022 Kia Sorento - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92571,Central,92113,168
+2207,BAE Systems,2018 Volkswagen ATLAS - 7 Seats,7,Manufacturing,Non_Military,South Suburban,92173,Central,92113,45
+2216,US Border Patrol,2022 Kia Sorento - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92592,South Suburban,92154,160
+2222,Naval Base San Diego,2022 Kia Sorento - 7 Seats,7,Military,Military,Riverside County,92591,Central,92136,126
+2226,Naval Base San Diego,2021 Ford TRANS - 10 Seats,10,Military,Military,Riverside County,92583,Central,92136,128
+2233,Scripps Clinic,2021 Chevrolet TRAV - 7 Seats,7,Health Care & Social Assistance,Non_Military,Riverside County,92532,North City,92128,87
+2237,Naval Base San Diego,2022 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92596,Central,92136,144
+2243,Palomar Health,2020 Nissan PATH - 7 Seats,7,Health Care & Social Assistance,Non_Military,Riverside County,92568,North County East,92029,70
+2283,NASNI,2020 Buick ENCL - 7 Seats,7,Military,Military,Riverside County,92563,Central,92135,142
+2301,MCAS Miramar,2020 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92592,North City,92145,102
+2314,Naval Base San Diego,2020 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92563,Central,92136,156
+2317,US Border Patrol,2021 Ford TRANS - 9 Seats,9,Government & Public Administration,Non_Military,East Suburban,91914,East County,91962,80
+2321,MCRD,2021 Ford EXPL - 7 Seats,7,Military,Military,Riverside County,92563,Central,92140,126
+2322,Camp Pendleton,2020 Nissan PATH - 7 Seats,7,Military,Military,South Suburban,91932,North County West,92055,126
+2332,US Border Patrol,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,East County,91901,East County,91962,54
+2340,Palomar Health,2020 Nissan PATH - 7 Seats,7,Health Care & Social Assistance,Non_Military,Riverside County,92563,North County East,92029,68
+2348,VA Medical Center,2019 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,South Suburban,91902,North City,92161,58
+2354,Naval Medical Center,2020 Nissan PATH - 7 Seats,7,Military,Military,Riverside County,92592,Central,92134,156
+2386,VA Medical Center,2019 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92071,North City,92161,65
+2392,Naval Base San Diego,2019 Ford TRANS - 7 Seats,7,Military,Military,Riverside County,92592,Central,92136,120
+2396,BAE Systems,2021 Dodge DURA - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92562,Central,92113,132
+2397,Naval Base San Diego,2021 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92596,Central,92136,138
+2404,GIA-Gemological Institute of America Inc,2020 Dodge DURA - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Orange County,92780,North County West,92008,108
+2405,US Border Patrol,2021 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,Imperial County,92251,East County,91906,116
+2408,US Navy,2020 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92591,Central,92106,134
+2419,MCAS Miramar,2018 Ford EXPE - 8 Seats,8,Military,Military,Riverside County,92562,North City,92145,102
+2423,Metropolitan Correctional Center,2021 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92563,Central,92101,140
+2424,Naval Base San Diego,2020 Buick ENCL - 7 Seats,7,Military,Military,North City,92128,Central,92136,70
+2431,Naval Medical Center,2021 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92592,Central,92134,124
+2433,NASNI,2019 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92592,Central,92135,126
+2440,US Border Patrol,2021 Ford TRANS - 10 Seats,10,Government & Public Administration,Non_Military,Riverside County,92553,South Suburban,92173,152
+2443,General Atomics,2020 Ford TRANS - 8 Seats,8,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92881,North City,92064,94
+2445,Scripps Medical Foundation,2020 Dodge DURA - 7 Seats,7,Health Care & Social Assistance,Non_Military,East Suburban,91945,North City,92121,56
+2464,Genentech,2020 Dodge DURA - 7 Seats,7,Manufacturing,Non_Military,South Suburban,91910,North County West,92056,56
+2472,VA Medical Center,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91941,North City,92161,46
+2481,US Border Patrol,2020 Buick ENCL - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92021,East County,91962,50
+2483,Scripps Health,2019 Volkswagen ATLAS - 7 Seats,7,Health Care & Social Assistance,Non_Military,Central,92139,North City,92127,62
+2485,VA Medical Center,2019 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,South Suburban,92154,North City,92161,58
+2491,Naval Base San Diego,2020 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92563,Central,92136,122
+2502,MA Engineers,2020 Nissan PATH - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,South Suburban,91902,North City,92121,30
+2513,US Border Patrol,2021 Volkswagen ATLAS - 7 Seats,7,Government & Public Administration,Non_Military,Imperial County,92251,East County,91905,102
+2536,Naval Base El Centro,2021 Ford EXPL - 7 Seats,7,Military,Military,North City,92108,Imperial County,92243,208
+2544,US Border Patrol,2020 Buick ENCL - 7 Seats,7,Government & Public Administration,Non_Military,East County,91901,East County,91962,74
+2558,BAE Systems,2019 Dodge DURA - 7 Seats,7,Manufacturing,Non_Military,South Suburban,91932,Central,92113,22
+2565,US Border Patrol,2020 Nissan PATH - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92591,East Suburban,92071,142
+2568,US Border Patrol,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92071,East County,91905,95
+2584,NASNI,2019 Ford TRANS - 7 Seats,7,Military,Military,Riverside County,92592,Central,92135,126
+2587,Camp Pendleton,2021 Chevrolet TRAV - 7 Seats,7,Military,Military,North City,92124,North County West,92055,142
+2590,VA Medical Center,2020 Ford TRANS - 9 Seats,9,Government & Public Administration,Non_Military,South Suburban,91913,North City,92161,80
+2592,BAE Systems,2018 Ford Explorer - 7 Seats,7,Manufacturing,Non_Military,South Suburban,92173,Central,92113,47
+2602,Camp Pendleton,2021 Volkswagen ATLAS - 7 Seats,7,Military,Military,Riverside County,92563,North County West,92055,78
+2608,Thermo Fisher Scientific,2021 Volkswagen ATLAS - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92592,North County West,92008,66
+2614,VA Medical Center,2020 Nissan ARMADA - 8 Seats,8,Government & Public Administration,Non_Military,Central,91950,North City,92161,42
+2616,VA Medical Center,2022 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,South Suburban,91911,North City,92161,52
+2619,BAE Systems,2021 Dodge DURA - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92530,North City,92127,134
+2623,Metropolitan Correctional Center,2020 Buick ENCL - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92591,Central,92101,144
+2624,VA Medical Center,2022 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92592,North City,92161,110
+2625,HME,2022 Ford TRANS - 8 Seats,8,Manufacturing,Non_Military,Central,91950,North County West,92010,92
+2626,East County Transitional Living,2020 Ford TRANS - 10 Seats,10,Food Services & Drinking Places,Non_Military,East Suburban,92021,Central,92101,40
+2632,HME,2020 Nissan PATH - 7 Seats,7,Manufacturing,Non_Military,North City,92126,North County West,92010,62
+2635,Thermo Fisher Scientific,2020 Buick ENCL - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Central,91950,North County West,92008,76
+2636,UCSD,2019 Volkswagen ATLAS - 7 Seats,7,Education Services & Academic Institutions,Non_Military,South Suburban,91911,North City,92093,58
+2639,MCAS Miramar,2021 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92585,North City,92145,68
+2643,Thermo FIsher Scientific,2019 Dodge DURA - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,North City,92126,North County West,92008,52
+3192,US Border Patrol,2020 Ford TRANS - 8 Seats,8,Government & Public Administration,Non_Military,Orange County,92651,North County West,92058,162
+3195,VA Medical Center,2020 Nissan PATH - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91945,North City,92161,44
+3200,Camp Pendleton,2020 Nissan PATH - 7 Seats,7,Military,Military,Riverside County,92591,North County West,92055,78
+3202,Thermo Fisher Scientific,2020 Nissan PATH - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,North City,92126,North County West,92008,54
+3339,HME,2020 Nissan PATH - 7 Seats,7,Manufacturing,Non_Military,East Suburban,91942,North County West,92010,80
+3358,US Border Patrol,2021 Ford TRANS - 11 Seats,11,Government & Public Administration,Non_Military,North County East,92027,East County,91962,202
+3370,HME,2020 Dodge DURA - 7 Seats,7,Manufacturing,Non_Military,North City,92126,North County West,92010,62
+3375,HME,2020 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,East Suburban,91977,North County West,92010,90
+3492,NASNI,2020 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92595,Central,92135,150
+3496,VA Medical Center,2022 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92592,North City,92161,122
+3619,VA Medical Center,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,Central,92139,North City,92161,56
+3734,Naval Base San Diego,2020 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92591,Central,92136,124
+3736,Camp Pendleton,2022 Kia Sorento - 7 Seats,7,Military,Military,Riverside County,92563,North County West,92055,120
+3737,MCAS Miramar,2020 Nissan PATH - 7 Seats,7,Military,Military,Riverside County,92591,North City,92145,96
+4062,Thermo Fisher Scientific,2020 Nissan PATH - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,East Suburban,92021,North County West,92008,78
+4063,US Border Patrol,2019 Ford TRANS - 10 Seats,10,Government & Public Administration,Non_Military,East Suburban,91941,East County,91962,106
+4065,US Border Patrol,2022 Kia Sorento - 7 Seats,7,Government & Public Administration,Non_Military,Imperial County,92243,East County,91905,111
+4067,Naval Medical Center,2022 Kia Sorento - 7 Seats,7,Military,Military,Riverside County,92591,Central,92134,124
+4073,BAE Systems,2018 Volkswagen ATLAS - 7 Seats,7,Manufacturing,Non_Military,South Suburban,92154,Central,92113,44
+4077,Nassco - General Dynamics,2021 Ford TRANS - 10 Seats,10,Manufacturing,Non_Military,Imperial County,92243,Central,92113,225
+4098,HME,2020 Nissan PATH - 7 Seats,7,Manufacturing,Non_Military,North City,92126,North County West,92010,60
+4100,US Border Patrol,2022 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92591,South Suburban,92173,154
+4103,NASNI,2022 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92590,Central,92135,134
+4104,NASNI,2020 Ford EXPL - 7 Seats,7,Military,Military,Riverside County,92584,Central,92135,162
+4107,Genentech,2020 Nissan PATH - 7 Seats,7,Manufacturing,Non_Military,Orange County,92694,North County West,92056,70
+4111,Marines,2021 Volkswagen ATLAS - 7 Seats,7,Military,Military,Riverside County,92591,North City,92123,122
+4117,US Navy,2020 Nissan PATH - 7 Seats,7,Military,Military,Riverside County,92592,Central,92106,156
+4129,VA Medical Center,2020 Ford TRANS - 9 Seats,9,Government & Public Administration,Non_Military,Central,91950,North City,92161,52
+4131,Camp Pendleton,2021 Volkswagen ATLAS - 7 Seats,7,Military,Military,Riverside County,92562,North County West,92055,80
+4133,US Border Patrol,2020 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91942,East County,91905,66
+4137,BAE Systems,2021 Ford TRANS - 10 Seats,10,Manufacturing,Non_Military,Imperial County,92231,Central,92113,234
+4158,Camp Pendleton,2019 Ford TRANS - 9 Seats,9,Military,Military,Riverside County,92571,North County West,92055,108
+4160,NASNI,2020 Buick ENCL - 7 Seats,7,Military,Military,North County West,92056,Central,92135,94
+4162,NASNI,2022 Kia Sorento - 7 Seats,7,Military,Military,Riverside County,92596,Central,92135,144
+4163,VA Medical Center,2019 Volkswagen ATLAS - 7 Seats,7,Government & Public Administration,Non_Military,Central,91950,North City,92161,42
+4169,BAE Systems,2019 Volkswagen ATLAS - 7 Seats,7,Manufacturing,Non_Military,South Suburban,92173,Central,92113,34
+4174,VA Medical Center,2019 Ford EXPL - 7 Seats,7,Government & Public Administration,Non_Military,South Suburban,91913,North City,92161,62
+4175,US Border Patrol,2020 Ford TRANS - 10 Seats,10,Government & Public Administration,Non_Military,East Suburban,91942,East County,91905,104
+4184,US Border Patrol,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,East County,91901,East County,91905,104
+4190,Naval Base San Diego,2021 Ford EXPE - 8 Seats,8,Military,Military,Riverside County,92562,Central,92136,130
+4194,VA Medical Center,2020 Buick ENCL - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92562,North City,92161,124
+4198,NASNI,2020 Dodge DURA - 7 Seats,7,Military,Military,North County East,92028,Central,92135,100
+4208,Metropolitan Correctional Center,2021 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92591,Central,92101,132
+4217,HME,2020 Nissan PATH - 7 Seats,7,Manufacturing,Non_Military,North City,92131,North County West,92010,52
+4218,Metropolitan Correctional Center,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,North County West,92057,Central,92101,88
+4220,US Border Patrol,2022 Tesla Model Y - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92592,South Suburban,92173,150
+4228,US Border Patrol,2022 Kia Sorento - 7 Seats,7,Government & Public Administration,Non_Military,North County East,92029,East County,91962,136
+4230,National Guard,2021 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92530,North City,92111,144
+4232,BAE Systems,2019 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,South Suburban,91911,Central,92113,22
+4341,NASNI,2021 Ford TRANS - 7 Seats,7,Military,Military,Riverside County,92563,Central,92118,140
+4349,US Border Patrol,2022 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92071,East County,91962,66
+4354,U.S. Border Patrol - Pine Valley,2021 Volkswagen ATLAS - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91941,East County,91962,88
+4362,HL Welding,2022 Ford TRANS - 8 Seats,8,Manufacturing,Non_Military,Imperial County,92251,Central,92101,236
+4363,Naval Base San Diego,2021 Volkswagen ATLAS - 7 Seats,7,Military,Military,Riverside County,92591,Central,92136,122
+4365,Naval Base Point Loma,2020 Ford TRANS - 8 Seats,8,Military,Military,East Suburban,92019,Central,92106,142
+4367,VA Medical Center,2020 Nissan PATH - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92071,North City,92161,40
+4368,US Border Patrol,2020 Nissan PATH - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91942,East County,91962,84
+4369,Naval Base San Diego,2022 Kia Sorento - 7 Seats,7,Military,Military,Riverside County,92584,Central,92136,144
+4370,BAE Systems,2020 Buick ENCL - 7 Seats,7,Manufacturing,Non_Military,South Suburban,91911,Central,92113,20
+4373,VA Medical Center,2019 Volkswagen ATLAS - 7 Seats,7,Government & Public Administration,Non_Military,Central,91950,North City,92161,42
+4381,Naval Base San Diego,2022 Kia Sorento - 7 Seats,7,Military,Military,Riverside County,92592,Central,92136,122
+4383,Naval Base San Diego,2020 Ford TRANS - 11 Seats,11,Military,Military,Riverside County,92595,Central,92136,140
+4384,Naval Base San DIego,2019 Ford TRANS - 12 Seats,12,Military,Military,Riverside County,92584,Central,92136,150
+4385,Naval Base San Diego,2022 Ford TRANS - 9 Seats,9,Military,Military,Riverside County,92584,Central,92136,156
+4388,Naval Base San Diego,2020 Buick ENCL - 7 Seats,7,Military,Military,Riverside County,92592,Central,92136,118
+4389,NASNI,2020 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92563,Central,92135,142
+4498,US Border Patrol,2021 Ford TRANS - 10 Seats,10,Government & Public Administration,Non_Military,East Suburban,91942,East County,91905,107
+4499,US Border Patrol,2022 Kia Sorento - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92071,East County,91962,82
+4500,Staff Pro Workforce (Legoland),2020 Ford TRANS - 15 Seats,15,Accommodation,Non_Military,South Suburban,92173,North County West,92008,100
+4505,National Guard,2020 Nissan PATH - 7 Seats,7,Military,Military,Imperial County,92243,North City,92111,222
+4511,Watkins Wellness,2021 Ford TRANS - 10 Seats,10,Manufacturing,Non_Military,Riverside County,92584,North County East,92081,108
+4514,NASNI,2020 Buick ENCL - 7 Seats,7,Military,Military,Riverside County,92563,Central,92135,136
+4515,BAE Systems,2020 Dodge DURA - 7 Seats,7,Manufacturing,Non_Military,South Suburban,92154,Central,92113,22
+4523,NASNI,2022 Tesla Model Y - 7 Seats,7,Military,Military,Riverside County,92592,Central,92135,100
+4524,VA Medical Center,2022 Kia Sorento - 7 Seats,7,Government & Public Administration,Non_Military,North County East,92028,North City,92161,118
+4525,US Border Patrol,2020 Nissan PATH - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92021,East County,91962,70
+4526,Nassco - General Dynamics,2020 Nissan PATH - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92582,Central,92113,180
+4527,Naval Base San Diego,2022 Kia Sorento - 7 Seats,7,Military,Military,Riverside County,92562,Central,92136,144
+4528,VA Medical Center,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,North City,92109,North City,92161,12
+4530,NASNI,2019 Ford TRANS - 7 Seats,7,Military,Military,Riverside County,92563,Central,92135,140
+4533,UCSD,2019 Dodge DURA - 7 Seats,7,Education Services & Academic Institutions,Non_Military,South Suburban,91911,North City,92093,57
+4534,Naval Base San Diego,2022 Kia Sorento - 7 Seats,7,Military,Military,Riverside County,92591,Central,92136,128
+4535,Naval Base San Diego,2020 Nissan PATH - 7 Seats,7,Military,Military,Riverside County,92545,Central,92136,176
+4536,MCRD,2019 Ford TRANS - 7 Seats,7,Military,Military,Riverside County,92592,Central,92140,118
+4537,VA Medical Center,2021 Ford EXPL - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92562,North City,92161,124
+4538,VA Medical Center,2020 Buick ENCL - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91941,North City,92161,50
+4541,VA Medical Center,2021 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,Central,91950,North City,92161,46
+4542,Palomar Health,2019 Nissan PATH - 7 Seats,7,Health Care & Social Assistance,Non_Military,Riverside County,92592,North County East,92029,64
+4543,Metropolitan Correctional Center,2021 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92563,Central,92101,128
+4544,Staff Pro Workforce (Legoland),2020 Ford TRANS - 15 Seats,15,Accommodation,Non_Military,South Suburban,92173,North County West,92008,94
+4545,RJ Donovan Correctional Facility,2020 Ford TRANS - 9 Seats,9,Government & Public Administration,Non_Military,Central,92114,South Suburban,92179,34
+4549,Thermo Fisher Scientific,2020 Dodge DURA - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92562,North County West,92008,96
+4551,VA Medical Center,2021 Ford EXPL - 7 Seats,7,Government & Public Administration,Non_Military,North County East,92081,North City,92161,74
+4554,Staff Pro Workforce (Legoland),2021 Ford TRANS - 15 Seats,15,Accommodation,Non_Military,South Suburban,92173,North County West,92008,94
+4556,US Border Patrol,2022 Tesla Model Y - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92532,South Suburban,92173,140
+4558,UCSD,2019 Ford TRANS - 8 Seats,8,Education Services & Academic Institutions,Non_Military,Central,91950,North City,92093,44
+4559,Brightview Landscaping (Carlsbad),2021 Ford TRANS - 15 Seats,15,Other,Non_Military,South Suburban,92173,North County West,92008,98
+4560,MCRD,2021 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92544,Central,92140,188
+4561,VA Medical Center,2021 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92019,North City,92161,68
+4562,VA Medical Center,2019 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92562,North City,92161,124
+4563,VA Medical Center,2021 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92585,North City,92161,148
+4564,Staff Pro Workforce (Harrah's),2021 Ford TRANS - 15 Seats,15,"Arts, Entertainment, & Recreation",Non_Military,South Suburban,92173,North County East,92082,116
+4565,Phillips,2020 Dodge DURA - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92563,North City,92130,108
+4566,Port of San Diego,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,South Suburban,91913,Central,92101,40
+4567,Palomar Health,2020 Chevrolet TRAV - 7 Seats,7,Health Care & Social Assistance,Non_Military,Riverside County,92591,North County East,92029,64
+4569,Naval Base San Diego,2020 Nissan PATH - 7 Seats,7,Military,Military,Riverside County,92591,Central,92136,128
+4573,Staff Pro Workforce (Legoland),2021 Ford TRANS - 15 Seats,15,Accommodation,Non_Military,South Suburban,92173,North County West,92008,94
+4577,General Atomics,2020 Ford TRANS - 10 Seats,10,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92592,North City,92064,102
+4578,Staff Pro Workforce (Legoland),2021 Ford TRANS - 15 Seats,15,Accommodation,Non_Military,South Suburban,92173,North County West,92008,90
+4579,VA Medical Center,2019 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,South Suburban,91910,North City,92161,50
+4581,Magnaflow (Oceanside Plant),2021 Dodge DURA - 7 Seats,7,Manufacturing,Non_Military,Orange County,92701,North County West,92056,114
+4582,Naval Base San Diego,2020 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92562,Central,92136,154
+4585,SD Unified School District,2020 Chevrolet TRAV - 7 Seats,7,Education Services & Academic Institutions,Non_Military,Riverside County,92563,North City,92111,112
+4587,Nassco - General Dynamics,2020 Ford TRANS - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92562,Central,92113,138
+4588,VA Medical Center,2020 Ford TRANS - 10 Seats,10,Government & Public Administration,Non_Military,Riverside County,92562,North City,92161,128
+4589,Brightview Landscaping (Carlsbad),2021 Ford TRANS - 15 Seats,15,Other,Non_Military,North City,92121,Central,92113,30
+4590,Camp Pendleton,2020 Nissan PATH - 7 Seats,7,Military,Military,Riverside County,92562,North County West,92055,70
+4591,NASNI,2021 Ford EXPL - 7 Seats,7,Military,Military,North County East,92025,Central,92135,74
+4592,NASNI,2020 Ford TRANS - 7 Seats,7,Military,Military,North City,92128,Central,92135,52
+4593,NASNI,2021 Ford TRANS - 7 Seats,7,Military,Military,Riverside County,92563,Central,92135,128
+4597,Nassco - General Dynamics,2020 Buick ENCL - 7 Seats,7,Manufacturing,Non_Military,Imperial County,92231,Central,92113,255
+4598,Nassco -General Dynamics,2022 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92592,Central,92113,124
+4599,NASNI,2020 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92592,Central,92135,198
+4600,Nassco - General Dynamics,2021 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92562,Central,92113,124
+4601,Nassco - General Dynamics,2020 Dodge DURA - 7 Seats,7,Manufacturing,Non_Military,East County,91901,Central,92113,86
+4602,Watkins Wellness,2020 Ford TRANS - 15 Seats,15,Manufacturing,Non_Military,Central,91950,North County East,92081,86
+4603,Watkins Wellness,2020 Ford TRANS - 15 Seats,15,Manufacturing,Non_Military,Central,91950,North County East,92081,86
+4604,Naval Base San Diego,2020 Dodge DURA - 7 Seats,7,Military,Military,East Suburban,92065,Central,92136,74
+4606,US Border Patrol,2019 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,South Suburban,91910,East County,91962,108
+4607,NASNI,2020 Buick ENCL - 7 Seats,7,Military,Military,North County West,92024,Central,92135,64
+4609,US Border Patrol,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91942,East County,91905,107
+4612,NASNI,2020 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92586,Central,92135,160
+4614,Naval Base Point Loma,2021 Volkswagen ATLAS - 7 Seats,7,Military,Military,Riverside County,92563,Central,92106,138
+4615,VA Medical Center,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92020,North City,92161,48
+4616,VA Medical Center,2020 Ford EXPL - 7 Seats,7,Government & Public Administration,Non_Military,South Suburban,92154,North City,92161,50
+4617,Staff Pro Workforce (Legoland),2021 Ford TRANS - 15 Seats,15,Accommodation,Non_Military,South Suburban,92173,North County West,92008,94
+4618,NASNI,2021 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92591,Central,92135,132
+4619,Staff Pro Workforce (Legoland),2021 Ford TRANS - 15 Seats,15,Accommodation,Non_Military,South Suburban,92173,North County West,92008,90
+4620,BAE Systems,2020 Nissan PATH - 7 Seats,7,Manufacturing,Non_Military,South Suburban,92154,Central,92113,27
+4621,US Border Patrol,2022 Tesla Model Y - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92592,South Suburban,92173,140
+4622,US Border Patrol,2016 Tesla Model X - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92592,South Suburban,92173,140
+4623,Nassco - General Dynamics,2019 Ford TRANS - 8 Seats,8,Manufacturing,Non_Military,Riverside County,92596,South Suburban,91910,154
+4625,Navy Broadway Complex,2020 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92563,Central,92132,142
+4627,Naval Base San Diego,2019 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92584,Central,92136,158
+4629,Nassco - General Dynamics,2020 Ford TRANS - 10 Seats,10,Manufacturing,Non_Military,Imperial County,92251,Central,92113,309
+4630,Nassco - General Dynamics,2019 Ford TRANS - 10 Seats,10,Manufacturing,Non_Military,Imperial County,92231,Central,92113,242
+4631,Nassco - General Dynamics,2019 Ford TRANS - 8 Seats,8,Manufacturing,Non_Military,Imperial County,92231,Central,92113,238
+4632,Nassco - General Dynamics,2019 Ford TRANS - 8 Seats,8,Manufacturing,Non_Military,Imperial County,92231,Central,92113,235
+4634,NASNI,2020 Nissan PATH - 7 Seats,7,Military,Military,Riverside County,92596,Central,92135,148
+4635,VA Medical Center,2019 Ford EXPE - 8 Seats,8,Government & Public Administration,Non_Military,North County East,92069,North City,92161,62
+4636,Staff Pro Workforce (Legoland),2021 Ford TRANS - 15 Seats,15,Accommodation,Non_Military,South Suburban,92173,North County West,92008,97
+4637,Staff Pro Workforce (Legoland),2019 Ford TRANS - 15 Seats,15,Accommodation,Non_Military,South Suburban,92173,North County West,92008,97
+4638,General Atomics,2021 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92591,North City,92064,96
+4639,MCAS Miramar,2020 Dodge DURA - 7 Seats,7,Military,Military,Riverside County,92585,North City,92145,130
+4640,Vista Courthouse - US District Court,2021 Volkswagen ATLAS - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92532,North County East,92081,98
+4641,VA Medical Center,2020 Dodge DURA - 7 Seats,7,Government & Public Administration,Non_Military,North County West,92057,North City,92161,64
+4642,VA Medical Center,2021 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,South Suburban,91911,North City,92161,52
+4643,VA Medical Center,2021 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91977,North City,92161,60
+4645,Illumina,2021 Volkswagen ATLAS - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,North City,92126,North City,92122,12
+4646,Illumina,2022 Kia Sorento - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92591,North City,92122,132
+4647,NASNI,2021 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92563,Central,92135,150
+4648,Illumina,2019 Volkswagen ATLAS - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Central,92114,North City,92122,45
+4649,Nassco - General Dynamics,2020 Ford TRANS - 8 Seats,8,Manufacturing,Non_Military,Imperial County,92231,Central,92113,233
+4650,Illumina,2021 Dodge DURA - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,North County East,92078,North City,92122,62
+4652,NASNI,2022 Kia Sorento - 7 Seats,7,Military,Military,Riverside County,92592,Central,92135,136
+4654,General Atomics,2021 Dodge DURA - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Central,92139,North City,92064,54
+4655,Naval Base San Diego,2021 Volkswagen ATLAS - 7 Seats,7,Military,Military,Riverside County,92592,Central,92136,124
+4656,Illumina,2022 Kia Sorento - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,North City,92128,North City,92122,38
+4657,US Border Patrol,2021 Volkswagen ATLAS - 7 Seats,7,Government & Public Administration,Non_Military,East County,91962,Imperial County,92231,146
+4658,Illumina,2022 Kia Sorento - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,North County East,92078,North City,92122,13
+4660,NASNI,2021 Ford TRANS - 8 Seats,8,Military,Military,East Suburban,92071,Central,92135,50
+4661,NASNI,2020 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92562,Central,92135,138
+4662,Camp Pendleton,2019 Ford TRANS - 8 Seats,8,Military,Military,Riverside County,92532,North County West,92055,78
+4663,Naval Base San Diego,2022 Chevrolet TRAV - 7 Seats,7,Military,Military,East Suburban,92065,Central,92136,76
+4667,Camp Pendleton,2019 Ford TRANS - 7 Seats,7,Military,Military,Riverside County,92563,North County West,92055,60
+4669,Camp Pendleton,2020 Buick ENCL - 7 Seats,7,Military,Military,Riverside County,92563,North County West,92055,58
+4670,General Atomics ASI (HQ),2022 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92563,North City,92128,96
+4672,General Atomics ASI (HQ),2022 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Central,91950,North City,92064,52
+4778,Naval Base San Diego,2020 Nissan PATH - 7 Seats,7,Military,Military,Riverside County,92584,Central,92136,154
+4779,NASNI,2022 Chevrolet TRAV - 7 Seats,7,Military,Military,North City,92128,Central,92135,50
+4780,General Atomics ASI,2022 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,East Suburban,91915,North City,92064,70
+4781,General Atomics ASI,2021 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92592,North City,92064,98
+4782,BAE Systems,2021 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,East Suburban,92019,Central,92113,30
+4783,BAE Systems,2020 Buick ENCL - 7 Seats,7,Manufacturing,Non_Military,South Suburban,91910,Central,92113,26
+4784,BAE Systems,2021 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92592,Central,92113,120
+4785,General Atomics ASI (HQ),2021 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Central,92105,North City,92064,40
+4786,General Atomics ASI (HQ),2021 Dodge DURA - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92596,North City,92064,114
+4787,General Atomics ASI (HQ),2020 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,South Suburban,91911,North City,92128,56
+4788,NASNI,2020 Ford TRANS - 10 Seats,10,Military,Military,Riverside County,92545,Central,92135,170
+4789,General Atomics ASI (HQ),2020 Ford TRANS - 10 Seats,10,"Professional, Scientific, & Technical Services",Non_Military,South Suburban,92154,North City,92064,62
+4790,NAVY,2020 Ford EXPL - 7 Seats,7,Military,Military,Riverside County,92562,Central,92152,142
+4791,General Atomics ASI (HQ),2021 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,South Suburban,91932,North City,92064,70
+4792,Thermo Fisher Scientific,2019 Volkswagen ATLAS - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,East Suburban,91977,North County West,92008,86
+4793,Illumina,2021 Volkswagen ATLAS - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92563,North City,92122,129
+4795,Barona Casino,2021 Dodge DURA - 7 Seats,7,"Arts, Entertainment, & Recreation",Non_Military,South Suburban,91911,East Suburban,92040,64
+4796,General Atomics,2021 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Central,92114,North City,92064,48
+4797,General Atomics ASI (HQ),2021 Dodge DURA - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92592,North City,92128,52
+4798,General Atomics,2021 Dodge DURA - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,South Suburban,92154,North City,92064,70
+4799,Staff Pro Workforce (Legoland),2019 Ford TRANS - 15 Seats,15,Accommodation,Non_Military,South Suburban,92173,North County West,92008,96
+4800,Brightview Landscaping,2022 Ford TRANS - 15 Seats,15,Other,Non_Military,Central,92114,North City,92121,87
+4801,Barona Casino,2022 Chevrolet TRAV - 7 Seats,7,"Arts, Entertainment, & Recreation",Non_Military,East Suburban,92020,East Suburban,92040,28
+4802,General Atomics ASI (HQ),2021 Ford EXPL - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,North County East,92084,North City,92064,62
+4803,GIA,2022 Kia Sorento - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92592,North County West,92008,72
+4804,Camp Pendleton,2020 Ford TRANS - 7 Seats,7,Military,Military,Riverside County,92587,North County West,92058,84
+4805,"Hempacco Co, Inc.",2021 Ford EXPE - 8 Seats,8,Manufacturing,Non_Military,South Suburban,92173,North City,92123,220
+4806,General Atomics ASI (HQ),2022 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,North County West,92057,North City,92128,64
+4807,General Atomics ASI (HQ),2022 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92563,North City,92128,94
+4808,Staff Pro Workforce (Legoland),2022 Ford TRANS - 15 Seats,15,Accommodation,Non_Military,South Suburban,92173,North County West,92008,52
+4809,Solar Turbines,2020 Ford TRANS - 9 Seats,9,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92562,Central,92101,136
+4810,BAE Systems,2022 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,South Suburban,92173,Central,92113,27
+4811,NASNI,2020 Buick ENCL - 7 Seats,7,Military,Military,South Suburban,91913,Central,92135,40
+4812,MCAS Miramar,2021 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92584,North City,92145,118
+4813,Barona Casino,2021 Volkswagen ATLAS - 7 Seats,7,"Arts, Entertainment, & Recreation",Non_Military,East Suburban,92020,East Suburban,92040,32
+4814,Tesla Oceanside,2021 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92562,North County West,92056,74
+4815,Tesla Oceanside,2021 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92584,North County West,92056,126
+4816,Tesla Oceanside,2022 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92532,North County West,92056,94
+4818,Tesla Oceanside,2022 Chevrolet TRAV - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92530,North County West,92056,101
+4820,ICE Southern California,2022 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,Riverside County,92592,Central,92101,126
+4821,Willard Marine,2019 Ford EXPL - 7 Seats,7,Manufacturing,Non_Military,Riverside County,92882,North County West,92056,142
+4822,Willard Marine,2019 Ford TRANS - 10 Seats,10,Manufacturing,Non_Military,Orange County,92806,North County West,92056,132
+4823,Barona Casino,2019 Ford EXPL - 7 Seats,7,"Arts, Entertainment, & Recreation",Non_Military,East Suburban,92065,East Suburban,92040,22
+4824,Solar Turbines,2021 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Riverside County,92592,Central,92101,117
+4825,VA Medical Center,2021 Ford EXPL - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91914,North City,92123,44
+4827,Watkins Wellness,2019 Ford TRANS - 15 Seats,15,Manufacturing,Non_Military,East Suburban,91941,North County East,92081,85
+4828,General Atomics ASI (HQ),2022 Chevrolet TRAV - 7 Seats,7,"Professional, Scientific, & Technical Services",Non_Military,Central,92114,North City,92064,46
+4829,NAVWAR - Old Town,2022 Ford TRANS - 7 Seats,7,Military,Military,North County East,92026,North City,92110,89
+4831,Camp Pendleton,2020 Chevrolet TRAV - 7 Seats,7,Military,Military,Riverside County,92584,North County West,92058,94
+4832,BAE Systems,2022 Kia Sorento - 7 Seats,7,Manufacturing,Non_Military,South Suburban,92173,Central,92113,24
+4833,U.S. Border Patrol - Pine Valley,2021 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,91942,East County,91962,84
+4834,U.S. Border Patrol - Pine Valley,2020 Ford TRANS - 10 Seats,10,Government & Public Administration,Non_Military,Riverside County,92563,East County,91962,206
+4835,U.S. Border Patrol - Pine Valley,2021 Volkswagen ATLAS - 7 Seats,7,Government & Public Administration,Non_Military,South Suburban,91911,East County,91962,110
+4836,U.S. Border Patrol - Pine Valley,2021 Chevrolet TRAV - 7 Seats,7,Government & Public Administration,Non_Military,East Suburban,92021,East County,91962,84

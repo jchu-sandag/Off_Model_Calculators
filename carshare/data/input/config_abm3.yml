@@ -1,0 +1,22 @@
+inputs:
+    mgra_scen_input_file: "path to scenario's input/mgra15_based_input{year}.csv"
+    mgra_base_input_file: "path to corresponding base scenario's input/mgra15_based_input2022.csv"
+    person_input_file: "path to scenario's input/persons.csv"
+    household_input_file: "path to scenario's input/households.csv"
+    geography_xwalk_file: "relative path to Off_Model_Calculators/carshare/data/input/xref_MGRA_TAZ_MSA.csv"
+    emission_factors_file: "relative path to Off_Model_Calculators/carshare/data/input/co2_emissions_rates.xlsx"
+    carshare_mgra_file: "relative path to Off_Model_Calculators/carshare/data/input/mgra_carshare_inputs_s15.csv"
+
+parameters:
+    base_year: 2022
+    scen_year: 2035
+    population_density_threshold: 17
+    high_density_mobility_hub_carshare_participation : 0.02
+    low_density_mobility_hub_carshare_participation : 0.005
+    college_carshare_participation : 0.02
+    military_carshare_participation : 0.02
+    daily_vmt_reduction_carshare : 7
+
+outputs:
+    output_dir: "path to output directory"
+    output_file_name: "carshare_calculator_results.xlsx"

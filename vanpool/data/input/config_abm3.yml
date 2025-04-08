@@ -1,0 +1,28 @@
+inputs:
+    mgra_scen_input_file: "path to scenario's input/mgra15_based_input{year}.csv"
+    skim_scen_file: "path to scenario's output/skims/traffic_skims_AM.omx"
+    individual_tours_output_file: "path to scenario's output/resident/final_tours.csv"
+    skim_base_file: "path to corresponding base scenario's output/skims/traffic_skims_AM.omx"
+    mgra_base_input_file: "path to corresponding base scenario's input/mgra15_based_input2022.csv"
+    vanpool_od_file: "relative path to Off_Model_Calculators/vanpool/data/input/vanpool_od.csv"
+    geography_xwalk_file: "relative path to Off_Model_Calculators/vanpool/data/input/xref_MGRA_TAZ_MSA.csv"
+    msa_names_file: "relative path to Off_Model_Calculators/vanpool/data/input/msa_code_to_name_mapping.csv"
+    emission_factors_file: "relative path to Off_Model_Calculators/vanpool/data/input/co2_emissions_rates.xlsx"
+    employment_forecast_scag_file: "relative path to Off_Model_Calculators/vanpool/data/input/employment_forecast_SCAG.csv"
+    zipcode_coordinates_file: "relative path to Off_Model_Calculators/vanpool/data/input/ZipCode_Coordinates.csv"
+    external_gateways_file: "relative path to Off_Model_Calculators/vanpool/data/input/External_Gateways.csv"
+
+parameters:
+    base_year: 2022
+    scen_year: 2035
+    c_ivt: -0.016
+    avg_vanpool_occupancy: 0.8
+    pct_work_trips_over_50mi: 2.7
+    sov_am_time_core_name: "SOV_NT_H_TIME__AM"
+    hov_am_time_core_name: "HOV3_H_TIME__AM"    
+    military_base_taz: [4341, 4392, 4047, 2200, 2279, 2159, 143]
+    abm_version: "ABM3" 
+
+outputs:
+    output_dir: "path to output directory"
+    output_file_name: "vanpool_calculator_results.xlsx"
